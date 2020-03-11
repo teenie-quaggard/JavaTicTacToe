@@ -7,7 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaTicTacToe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTicTacToe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTicTacToe/META-INF/JavaTicTacToe.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTicTacToe/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTicTacToe/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -25,19 +36,57 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YynMmhIw06ZtbH9K9Z0DBgJEUU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="tests" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.TicTacToe">
+    <configuration name="MainTest.main" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="JavaTicTacToe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicTacToe" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -48,6 +97,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JAR Application.TicTacToe" />
+      <item itemvalue="JUnit.MainTest.main" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -62,6 +115,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="427" y="212" key="#BuildArtifactsBeforeRunChooser" timestamp="1583923853028">
       <screen x="0" y="0" width="1280" height="800" />
@@ -71,29 +127,49 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1583923855114" />
+    <state x="386" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1583928956273">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="386" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1583928956273" />
+    <state x="378" y="183" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583931443578">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="183" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1583931443578" />
     <state x="378" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583923754701">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1583923754701" />
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom" timestamp="1583923876572">
+    <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583936285110">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583923876572" />
-    <state width="1238" height="205" key="GridCell.Tab.0.center" timestamp="1583923876571">
+    <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1583936285110" />
+    <state width="1238" height="199" key="GridCell.Tab.0.bottom" timestamp="1583937269467">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583923876571" />
-    <state width="1238" height="205" key="GridCell.Tab.0.left" timestamp="1583923876570">
+    <state width="1238" height="199" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583937269467" />
+    <state width="1238" height="199" key="GridCell.Tab.0.center" timestamp="1583937269466">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583923876570" />
-    <state width="1238" height="205" key="GridCell.Tab.0.right" timestamp="1583923876571">
+    <state width="1238" height="199" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583937269466" />
+    <state width="1238" height="199" key="GridCell.Tab.0.left" timestamp="1583937269465">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583923876571" />
-    <state x="128" y="0" key="SettingsEditor" timestamp="1583923765757">
+    <state width="1238" height="199" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583937269465" />
+    <state width="1238" height="199" key="GridCell.Tab.0.right" timestamp="1583937269467">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="128" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1583923765757" />
+    <state width="1238" height="199" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583937269467" />
+    <state x="155" y="0" width="1109" height="800" key="SettingsEditor" timestamp="1583937148213">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="155" y="0" width="1109" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1583937148213" />
+    <state x="352" y="301" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583933892033">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="352" y="301" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.800@0.0.1280.800" timestamp="1583933892033" />
+    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583934016456">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1583934016456" />
   </component>
 </project>
