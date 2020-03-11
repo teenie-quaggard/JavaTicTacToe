@@ -11,13 +11,13 @@ class GameFactoryTest {
     void createGameCreatesANewInstanceOfGame() {
         GameFactory gameFactory = new GameFactory();
         Game twoPlayerGame = gameFactory.createGame(GameTypes.TWO_PLAYER);
-        assertThat(twoPlayerGame, instanceOf(TwoPlayerGame.class));
+        assertThat(twoPlayerGame, instanceOf(GameTwoPlayer.class));
     }
 
     @Test
     void createGameRequiresAGameType() {
         GameFactory gameFactory = new GameFactory();
         Game nullGame = gameFactory.createGame(null);
-        assertThat(nullGame, not(instanceOf(TwoPlayerGame.class)));
+        assertThat(nullGame, not(instanceOf(GameTwoPlayer.class)));
     }
 }

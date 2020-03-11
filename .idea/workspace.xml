@@ -7,13 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GameTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerHuman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PlayerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/java/GameFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/GameFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/java/PlayerFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/PlayerFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TwoPlayerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameTwoPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,22 +192,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1583938284260" />
-    <state width="1238" height="199" key="GridCell.Tab.0.bottom" timestamp="1583943573979">
+    <state width="1238" height="199" key="GridCell.Tab.0.bottom" timestamp="1583943653458">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583943573979" />
-    <state width="1238" height="199" key="GridCell.Tab.0.center" timestamp="1583943573978">
+    <state width="1238" height="199" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583943653458" />
+    <state width="1238" height="199" key="GridCell.Tab.0.center" timestamp="1583943653457">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583943573978" />
-    <state width="1238" height="199" key="GridCell.Tab.0.left" timestamp="1583943573976">
+    <state width="1238" height="199" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583943653457" />
+    <state width="1238" height="199" key="GridCell.Tab.0.left" timestamp="1583943653457">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583943573976" />
-    <state width="1238" height="199" key="GridCell.Tab.0.right" timestamp="1583943573978">
+    <state width="1238" height="199" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583943653457" />
+    <state width="1238" height="199" key="GridCell.Tab.0.right" timestamp="1583943653458">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583943573978" />
+    <state width="1238" height="199" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583943653458" />
     <state width="1238" height="254" key="GridCell.Tab.1.bottom" timestamp="1583939365910">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

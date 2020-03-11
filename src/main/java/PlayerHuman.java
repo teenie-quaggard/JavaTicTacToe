@@ -1,4 +1,4 @@
-public class HumanPlayer implements Player {
+public class PlayerHuman implements Player {
     @Override
     public int makeMove() {
         return 0;
