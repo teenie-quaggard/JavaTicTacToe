@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTicTacToe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTicTacToe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTicTacToe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTicTacToe/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +28,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YynMmhIw06ZtbH9K9Z0DBgJEUU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -63,7 +62,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MainTest.main">
-    <configuration name="MainTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.main" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="JavaTicTacToe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
@@ -87,11 +86,6 @@
       <item itemvalue="JAR Application.TicTacToe" />
       <item itemvalue="JUnit.MainTest.main" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.MainTest.main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,6 +99,9 @@
       <updated>1583923655506</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="427" y="212" key="#BuildArtifactsBeforeRunChooser" timestamp="1583923853028">
@@ -127,22 +124,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1583923754701" />
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom" timestamp="1583934025721">
+    <state width="1238" height="205" key="GridCell.Tab.0.bottom" timestamp="1583934388830">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583934025721" />
-    <state width="1238" height="205" key="GridCell.Tab.0.center" timestamp="1583934025720">
+    <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583934388830" />
+    <state width="1238" height="205" key="GridCell.Tab.0.center" timestamp="1583934388829">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583934025720" />
-    <state width="1238" height="205" key="GridCell.Tab.0.left" timestamp="1583934025720">
+    <state width="1238" height="205" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583934388829" />
+    <state width="1238" height="205" key="GridCell.Tab.0.left" timestamp="1583934388828">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583934025720" />
-    <state width="1238" height="205" key="GridCell.Tab.0.right" timestamp="1583934025721">
+    <state width="1238" height="205" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583934388828" />
+    <state width="1238" height="205" key="GridCell.Tab.0.right" timestamp="1583934388829">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583934025721" />
+    <state width="1238" height="205" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583934388829" />
     <state x="128" y="0" width="1136" height="800" key="SettingsEditor" timestamp="1583933900674">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
