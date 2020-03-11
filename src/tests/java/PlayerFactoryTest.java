@@ -9,14 +9,14 @@ class PlayerFactoryTest {
     @Test
     void createPlayerCreatesAHumanPlayer() {
         PlayerFactory playerFactory = new PlayerFactory();
-        Player player = playerFactory.createPlayer("Human");
+        Player player = playerFactory.createPlayer(PlayerTypes.HUMAN);
         assertThat(player, instanceOf(HumanPlayer.class));
     }
 
     @Test
     void createPlayerNeedsAStringPassedToIt() {
         PlayerFactory playerFactory = new PlayerFactory();
-        Player nullPlayer = playerFactory.createPlayer("Null");
+        Player nullPlayer = playerFactory.createPlayer(null);
         assertThat(nullPlayer, not(instanceOf(HumanPlayer.class)));
     }
 }
