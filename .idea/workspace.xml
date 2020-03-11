@@ -7,17 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GameFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HumanPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TwoPlayerGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/java/GameFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/java/PlayerFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTicTacToe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTicTacToe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/GameFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/GameFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/PlayerFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/PlayerFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +70,22 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerFactoryTest.createPlayerCreatesAHumanPlayer">
+  <component name="RunManager" selected="JUnit.GameFactoryTest.createGameRequiresAGameType">
     <configuration name="GameFactoryTest.createGameCreatesANewInstanceOfGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTicTacToe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameFactoryTest" />
       <option name="METHOD_NAME" value="createGameCreatesANewInstanceOfGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameFactoryTest.createGameRequiresAGameType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTicTacToe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameFactoryTest" />
+      <option name="METHOD_NAME" value="createGameRequiresAGameType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,6 +111,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayerFactoryTest.createPlayerNeedsAStringPassedToIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTicTacToe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerFactoryTest" />
+      <option name="METHOD_NAME" value="createPlayerNeedsAStringPassedToIt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicTacToe" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -124,9 +136,13 @@
       <item itemvalue="JUnit.MainTest.main" />
       <item itemvalue="JUnit.GameFactoryTest.createGameCreatesANewInstanceOfGame" />
       <item itemvalue="JUnit.PlayerFactoryTest.createPlayerCreatesAHumanPlayer" />
+      <item itemvalue="JUnit.PlayerFactoryTest.createPlayerNeedsAStringPassedToIt" />
+      <item itemvalue="JUnit.GameFactoryTest.createGameRequiresAGameType" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameFactoryTest.createGameRequiresAGameType" />
+        <item itemvalue="JUnit.PlayerFactoryTest.createPlayerNeedsAStringPassedToIt" />
         <item itemvalue="JUnit.PlayerFactoryTest.createPlayerCreatesAHumanPlayer" />
         <item itemvalue="JUnit.GameFactoryTest.createGameCreatesANewInstanceOfGame" />
       </list>
@@ -173,22 +189,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1583938284260" />
-    <state width="1238" height="199" key="GridCell.Tab.0.bottom" timestamp="1583940617810">
+    <state width="1238" height="199" key="GridCell.Tab.0.bottom" timestamp="1583942155590">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583940617810" />
-    <state width="1238" height="199" key="GridCell.Tab.0.center" timestamp="1583940617808">
+    <state width="1238" height="199" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583942155590" />
+    <state width="1238" height="199" key="GridCell.Tab.0.center" timestamp="1583942155590">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583940617808" />
-    <state width="1238" height="199" key="GridCell.Tab.0.left" timestamp="1583940617808">
+    <state width="1238" height="199" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583942155590" />
+    <state width="1238" height="199" key="GridCell.Tab.0.left" timestamp="1583942155589">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583940617808" />
-    <state width="1238" height="199" key="GridCell.Tab.0.right" timestamp="1583940617809">
+    <state width="1238" height="199" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583942155589" />
+    <state width="1238" height="199" key="GridCell.Tab.0.right" timestamp="1583942155590">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583940617809" />
+    <state width="1238" height="199" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583942155590" />
     <state width="1238" height="254" key="GridCell.Tab.1.bottom" timestamp="1583939365910">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -217,5 +233,19 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1583940384503" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tests/java/PlayerFactoryTest.java</url>
+          <line>9</line>
+          <properties class="PlayerFactoryTest" method="createPlayerCreatesAHumanPlayer">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
