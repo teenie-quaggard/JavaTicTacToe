@@ -7,7 +7,7 @@ public class BoardFactory {
             ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "", "", "", "", "", "", "", ""));
             return new BoardThreeXThree(tiles);
         } else {
-            return null;
+            throw new java.lang.Error("Incorrect boardType passed into BoardFactory.");
         }
     }
 }

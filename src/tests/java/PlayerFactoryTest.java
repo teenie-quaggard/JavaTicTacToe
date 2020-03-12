@@ -2,21 +2,20 @@ import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
-import static org.hamcrest.core.IsNot.not;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PlayerFactoryTest {
 
     @Test
     void createPlayerCreatesAHumanPlayer() {
-        PlayerFactory playerFactory = new PlayerFactory();
-        Player player = playerFactory.createPlayer(PlayerTypes.HUMAN);
+        Player player = PlayerFactory.createPlayer(PlayerTypes.HUMAN);
         assertThat(player, instanceOf(PlayerHuman.class));
     }
 
     @Test
-    void createPlayerNeedsAStringPassedToIt() {
-        PlayerFactory playerFactory = new PlayerFactory();
-        Player nullPlayer = playerFactory.createPlayer(null);
-        assertThat(nullPlayer, not(instanceOf(PlayerHuman.class)));
+    void createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType(){
+        Throwable exception = assertThrows(Throwable.class, () -> PlayerFactory.createPlayer(null));
+        assertTrue(exception.getMessage().contains("Incorrect playerType passed into PlayerFactory."));
     }
 }

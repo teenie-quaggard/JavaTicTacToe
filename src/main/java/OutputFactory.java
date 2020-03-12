@@ -3,7 +3,7 @@ public class OutputFactory {
         if (outputType == OutputTypes.CONSOLE) {
             return new OutputConsole();
         } else {
-            return null;
+            throw new java.lang.Error("Incorrect outputType passed into OutputFactory.");
         }
     }
 }
