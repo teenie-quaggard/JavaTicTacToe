@@ -1,7 +1,11 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class BoardFactory {
-    public Board createBoard(BoardTypes boardTypes) {
+    public static Board createBoard(BoardTypes boardTypes) {
         if (boardTypes == BoardTypes.THREE_X_THREE) {
-            return new BoardThreeXThree();
+            ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "", "", "", "", "", "", "", ""));
+            return new BoardThreeXThree(tiles);
         } else {
             return null;
         }

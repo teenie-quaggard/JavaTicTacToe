@@ -1,8 +1,16 @@
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class BoardThreeXThree implements Board {
-    @Override
-    public Vector availableSpaces() {
-        return new Vector(9);
+
+    ArrayList<String> tiles;
+
+    BoardThreeXThree(ArrayList<String> tiles) {
+        this.tiles = tiles;
     }
+
+    @Override
+    public ArrayList<String> availableTiles() {
+        return tiles;
+    }
+
 }

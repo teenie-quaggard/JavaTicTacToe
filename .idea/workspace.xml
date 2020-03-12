@@ -7,12 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BoardFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BoardThreeXThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BoardTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/java/BoardFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/java/BoardThreeXThreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTicTacToe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTicTacToe/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BoardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BoardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BoardThreeXThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BoardThreeXThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameTwoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameTwoPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/GameFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/GameFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +81,17 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameFactoryTest.createGameRequiresAGameType">
+  <component name="RunManager" selected="JUnit.BoardThreeXThreeTest.availableSpacesReturnsTilesWithoutMarkers">
+    <configuration name="BoardThreeXThreeTest.availableSpacesReturnsTilesWithoutMarkers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTicTacToe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoardThreeXThreeTest" />
+      <option name="METHOD_NAME" value="availableSpacesReturnsTilesWithoutMarkers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GameFactoryTest.createGameCreatesANewInstanceOfGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTicTacToe" />
       <option name="PACKAGE_NAME" value="" />
@@ -142,9 +159,11 @@
       <item itemvalue="JUnit.PlayerFactoryTest.createPlayerCreatesAHumanPlayer" />
       <item itemvalue="JUnit.PlayerFactoryTest.createPlayerNeedsAStringPassedToIt" />
       <item itemvalue="JUnit.GameFactoryTest.createGameRequiresAGameType" />
+      <item itemvalue="JUnit.BoardThreeXThreeTest.availableSpacesReturnsTilesWithoutMarkers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardThreeXThreeTest.availableSpacesReturnsTilesWithoutMarkers" />
         <item itemvalue="JUnit.GameFactoryTest.createGameRequiresAGameType" />
         <item itemvalue="JUnit.PlayerFactoryTest.createPlayerNeedsAStringPassedToIt" />
         <item itemvalue="JUnit.PlayerFactoryTest.createPlayerCreatesAHumanPlayer" />
@@ -177,10 +196,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1583939001057" />
-    <state x="386" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1583937610994">
+    <state x="386" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1584014391012">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="386" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1583937610994" />
+    <state x="386" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1584014391012" />
     <state x="378" y="183" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583938260779">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -193,22 +212,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1583938284260" />
-    <state width="1238" height="199" key="GridCell.Tab.0.bottom" timestamp="1583944459993">
+    <state width="1238" height="149" key="GridCell.Tab.0.bottom" timestamp="1584014517197">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583944459993" />
-    <state width="1238" height="199" key="GridCell.Tab.0.center" timestamp="1583944459993">
+    <state width="1238" height="149" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584014517197" />
+    <state width="1238" height="149" key="GridCell.Tab.0.center" timestamp="1584014517196">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583944459993" />
-    <state width="1238" height="199" key="GridCell.Tab.0.left" timestamp="1583944459992">
+    <state width="1238" height="149" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584014517196" />
+    <state width="1238" height="149" key="GridCell.Tab.0.left" timestamp="1584014517195">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583944459992" />
-    <state width="1238" height="199" key="GridCell.Tab.0.right" timestamp="1583944459993">
+    <state width="1238" height="149" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584014517195" />
+    <state width="1238" height="149" key="GridCell.Tab.0.right" timestamp="1584014517196">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="199" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583944459993" />
+    <state width="1238" height="149" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584014517196" />
     <state width="1238" height="254" key="GridCell.Tab.1.bottom" timestamp="1583939365910">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -233,9 +252,17 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="352" y="301" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.800@0.0.1280.800" timestamp="1583933892033" />
-    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583946755309">
+    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584013847941">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1583946755309" />
+    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1584013847941" />
+    <state x="402" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1584007176561">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="402" y="13" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1584007176561" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1583965184231">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1583965184231" />
   </component>
 </project>

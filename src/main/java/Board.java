@@ -1,5 +1,5 @@
-import java.util.Vector;
+import java.util.ArrayList;
 
 public interface Board {
-    Vector availableSpaces();
+    ArrayList<String> availableTiles();
 }

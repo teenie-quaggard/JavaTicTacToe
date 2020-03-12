@@ -9,8 +9,7 @@ class GameFactoryTest {
 
     @Test
     void createGameCreatesANewInstanceOfGame() {
-        GameFactory gameFactory = new GameFactory();
-        Game twoPlayerGame = gameFactory.createGame(GameTypes.TWO_PLAYER);
+        Game twoPlayerGame = GameFactory.createGame(GameTypes.TWO_PLAYER);
         assertThat(twoPlayerGame, instanceOf(GameTwoPlayer.class));
     }
 
