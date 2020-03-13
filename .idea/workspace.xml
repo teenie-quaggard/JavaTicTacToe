@@ -7,16 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTicTacToe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTicTacToe/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BoardThreeXThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BoardThreeXThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameTwoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameTwoPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OutputConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OutputConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/java/BoardThreeXThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/BoardThreeXThreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +53,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -190,10 +185,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="427" y="212" key="#BuildArtifactsBeforeRunChooser/0.0.1280.800@0.0.1280.800" timestamp="1583923853028" />
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583939001057">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584094826283">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1583939001057" />
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1584094826283" />
     <state x="386" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1584056607625">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -210,22 +205,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1583938284260" />
-    <state width="1238" height="142" key="GridCell.Tab.0.bottom" timestamp="1584057515790">
+    <state width="1238" height="264" key="GridCell.Tab.0.bottom" timestamp="1584094828150">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="142" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584057515790" />
-    <state width="1238" height="142" key="GridCell.Tab.0.center" timestamp="1584057515788">
+    <state width="1238" height="264" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584094828150" />
+    <state width="1238" height="264" key="GridCell.Tab.0.center" timestamp="1584094828149">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="142" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584057515788" />
-    <state width="1238" height="142" key="GridCell.Tab.0.left" timestamp="1584057515787">
+    <state width="1238" height="264" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584094828149" />
+    <state width="1238" height="264" key="GridCell.Tab.0.left" timestamp="1584094828148">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="142" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584057515787" />
-    <state width="1238" height="142" key="GridCell.Tab.0.right" timestamp="1584057515788">
+    <state width="1238" height="264" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584094828148" />
+    <state width="1238" height="264" key="GridCell.Tab.0.right" timestamp="1584094828150">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="142" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584057515788" />
+    <state width="1238" height="264" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584094828150" />
     <state width="1238" height="254" key="GridCell.Tab.1.bottom" timestamp="1584025870713">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -242,10 +237,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="254" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1584025870713" />
-    <state x="155" y="0" width="1109" height="800" key="SettingsEditor" timestamp="1583938161048">
+    <state x="155" y="0" width="1109" height="800" key="SettingsEditor" timestamp="1584093959516">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="155" y="0" width="1109" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1583938161048" />
+    <state x="155" y="0" width="1109" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1584093959516" />
     <state x="352" y="301" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583933892033">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
