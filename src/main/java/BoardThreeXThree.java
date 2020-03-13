@@ -9,8 +9,16 @@ public class BoardThreeXThree implements Board {
     }
 
     @Override
-    public ArrayList<String> availableTiles() {
+    public ArrayList<String> availableTiles() { return tiles; }
+
+    @Override
+    public ArrayList<String> getTiles() {
         return tiles;
+    }
+
+    @Override
+    public String getTileContent(Integer tileIndex) {
+        return tiles.get(tileIndex);
     }
 
 }

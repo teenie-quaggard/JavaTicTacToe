@@ -16,6 +16,10 @@ public class GameTwoPlayer implements Game {
 
     @Override
     public void play() {
-        System.out.println("In Two player game.");
+
+        System.out.println("You are playing the two player version of this game.");
+        output.displaysBoard(board);
     }
+
+
 }

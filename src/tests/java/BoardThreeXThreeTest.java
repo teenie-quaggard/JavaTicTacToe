@@ -15,4 +15,14 @@ class BoardThreeXThreeTest {
         assertEquals(availableTiles, tiles);
     }
 
+    @Test
+    void getTileContentReturnsContentOfTile() {
+        ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "X", "", "", "", "", "", "", ""));
+        BoardThreeXThree board = new BoardThreeXThree(tiles);
+        String tileContentX = board.getTileContent(1);
+        String tileContentNull = board.getTileContent(0);
+        assertEquals(tileContentX, "X");
+        assertEquals(tileContentNull, "");
+
+    }
 }

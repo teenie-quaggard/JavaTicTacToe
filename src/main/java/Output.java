@@ -1,3 +1,4 @@
 public interface Output {
-    String responds();
+    void welcomesPlayer();
+    void displaysBoard(Board board);
 }
