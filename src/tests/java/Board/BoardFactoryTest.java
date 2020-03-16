@@ -1,3 +1,7 @@
+package Board;
+
+import Board.Board;
+import Board.BoardTypes;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.instanceOf;

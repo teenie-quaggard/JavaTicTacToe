@@ -1,3 +1,9 @@
+package Player;
+
+import Player.Player;
+import Player.PlayerFactory;
+import Player.PlayerHuman;
+import Player.PlayerTypes;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;

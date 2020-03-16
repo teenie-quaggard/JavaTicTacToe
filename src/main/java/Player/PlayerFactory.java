@@ -1,3 +1,5 @@
+package Player;
+
 public class PlayerFactory {
     public static Player createPlayer(PlayerTypes playerType) {
         if (playerType == PlayerTypes.HUMAN) {

@@ -1,7 +1,15 @@
+package Output;
+
+import Output.Output;
+import Output.OutputConsole;
+import Output.OutputFactory;
+import Output.OutputTypes;
+
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
+
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

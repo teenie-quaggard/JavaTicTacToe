@@ -1,3 +1,13 @@
+package Game;
+
+import Game.Game;
+import Game.GameFactory;
+import Game.GameTwoPlayer;
+import Game.GameTypes;
+import Output.Output;
+import Output.OutputFactory;
+import Output.OutputTypes;
+
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;

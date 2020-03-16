@@ -1,3 +1,9 @@
+package Game;
+
+import Board.Board;
+import Output.Output;
+import Player.Player;
+
 public class GameTwoPlayer implements Game {
 
     Output output;

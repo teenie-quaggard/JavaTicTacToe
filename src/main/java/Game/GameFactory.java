@@ -1,3 +1,14 @@
+package Game;
+
+import Board.Board;
+import Board.BoardFactory;
+import Board.BoardTypes;
+import Output.Output;
+import Player.Player;
+import Player.PlayerFactory;
+import Player.PlayerTypes;
+
+
 public class GameFactory {
 
     Output output;
