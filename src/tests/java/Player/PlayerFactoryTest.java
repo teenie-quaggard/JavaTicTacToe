@@ -1,3 +1,5 @@
+package Player;
+
 import Player.Player;
 import Player.PlayerFactory;
 import Player.PlayerHuman;
@@ -20,6 +22,6 @@ class PlayerFactoryTest {
     @Test
     void createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType(){
         Throwable exception = assertThrows(Throwable.class, () -> PlayerFactory.createPlayer(null));
-        assertTrue(exception.getMessage().contains("Incorrect playerType passed into Player.PlayerFactory."));
+        assertTrue(exception.getMessage().contains("Incorrect playerType passed into PlayerFactory."));
     }
 }

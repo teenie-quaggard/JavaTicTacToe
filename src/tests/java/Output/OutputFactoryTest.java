@@ -1,3 +1,5 @@
+package Output;
+
 import Output.Output;
 import Output.OutputConsole;
 import Output.OutputFactory;
@@ -22,7 +24,7 @@ class OutputFactoryTest {
     @Test
     void createOutputThrowsExceptionWhenPassedIncorrectOutputType(){
         Throwable exception = assertThrows(Throwable.class, () -> OutputFactory.createOutput(null));
-        assertTrue(exception.getMessage().contains("Incorrect outputType passed into Output.OutputFactory."));
+        assertTrue(exception.getMessage().contains("Incorrect outputType passed into OutputFactory."));
     }
 
 }

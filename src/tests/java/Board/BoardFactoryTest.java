@@ -1,3 +1,5 @@
+package Board;
+
 import Board.Board;
 import Board.BoardTypes;
 import org.junit.jupiter.api.Test;
@@ -17,7 +19,7 @@ class BoardFactoryTest {
     @Test
     public void createBoardThrowsAnExceptionWhenPassedAnIncorrectBoardType() {
         Throwable exception = assertThrows(Throwable.class, () -> BoardFactory.createBoard(null));
-        assertTrue(exception.getMessage().contains("Incorrect boardType passed into Board.BoardFactory."));
+        assertTrue(exception.getMessage().contains("Incorrect boardType passed into BoardFactory."));
     }
 
 
