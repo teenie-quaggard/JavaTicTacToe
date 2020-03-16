@@ -1,3 +1,7 @@
+import Player.Player;
+import Player.PlayerFactory;
+import Player.PlayerHuman;
+import Player.PlayerTypes;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -16,6 +20,6 @@ class PlayerFactoryTest {
     @Test
     void createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType(){
         Throwable exception = assertThrows(Throwable.class, () -> PlayerFactory.createPlayer(null));
-        assertTrue(exception.getMessage().contains("Incorrect playerType passed into PlayerFactory."));
+        assertTrue(exception.getMessage().contains("Incorrect playerType passed into Player.PlayerFactory."));
     }
 }

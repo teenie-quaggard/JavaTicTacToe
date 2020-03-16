@@ -1,3 +1,5 @@
+package Board;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -7,7 +9,7 @@ public class BoardFactory {
             ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "", "", "", "", "", "", "", ""));
             return new BoardThreeXThree(tiles);
         } else {
-            throw new java.lang.Error("Incorrect boardType passed into BoardFactory.");
+            throw new java.lang.Error("Incorrect boardType passed into Board.BoardFactory.");
         }
     }
 }

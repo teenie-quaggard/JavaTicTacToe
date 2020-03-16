@@ -1,3 +1,14 @@
+package Game;
+
+import Board.Board;
+import Board.BoardFactory;
+import Board.BoardTypes;
+import Output.Output;
+import Player.Player;
+import Player.PlayerFactory;
+import Player.PlayerTypes;
+
+
 public class GameFactory {
 
     Output output;
@@ -15,7 +26,7 @@ public class GameFactory {
 
             return new GameTwoPlayer(output, board, player1, player2);
         } else {
-            throw new java.lang.Error("Incorrect gameType passed into GameFactory.");
+            throw new java.lang.Error("Incorrect gameType passed into Game.GameFactory.");
         }
     }
 }

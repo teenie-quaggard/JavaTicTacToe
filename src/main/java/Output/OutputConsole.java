@@ -1,3 +1,7 @@
+package Output;
+
+import Board.Board;
+
 import java.util.ArrayList;
 
 public class OutputConsole implements Output{

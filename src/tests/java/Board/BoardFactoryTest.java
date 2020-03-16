@@ -1,3 +1,5 @@
+import Board.Board;
+import Board.BoardTypes;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.instanceOf;
@@ -15,7 +17,7 @@ class BoardFactoryTest {
     @Test
     public void createBoardThrowsAnExceptionWhenPassedAnIncorrectBoardType() {
         Throwable exception = assertThrows(Throwable.class, () -> BoardFactory.createBoard(null));
-        assertTrue(exception.getMessage().contains("Incorrect boardType passed into BoardFactory."));
+        assertTrue(exception.getMessage().contains("Incorrect boardType passed into Board.BoardFactory."));
     }
 
 

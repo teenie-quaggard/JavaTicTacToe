@@ -1,3 +1,8 @@
+import Game.Game;
+import Game.GameFactory;
+import Game.GameTwoPlayer;
+import Game.GameTypes;
+import Output.Output;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -19,6 +24,6 @@ class GameFactoryTest {
     void createGameThrowsAnExceptionWhenPassedIncorrectGameType() {
         Output output = OutputFactory.createOutput(OutputTypes.CONSOLE);
         Throwable exception = assertThrows(Throwable.class, () -> GameFactory.createGame(null, output));
-        assertTrue(exception.getMessage().contains("Incorrect gameType passed into GameFactory."));
+        assertTrue(exception.getMessage().contains("Incorrect gameType passed into Game.GameFactory."));
     }
 }

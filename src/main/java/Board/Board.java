@@ -1,3 +1,5 @@
+package Board;
+
 import java.util.ArrayList;
 
 public interface Board {
