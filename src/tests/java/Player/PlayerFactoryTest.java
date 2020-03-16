@@ -1,3 +1,5 @@
+package Player;
+
 import Player.Player;
 import Player.PlayerFactory;
 import Player.PlayerHuman;

@@ -1,3 +1,5 @@
+package Board;
+
 import Board.BoardThreeXThree;
 import org.junit.jupiter.api.Test;
 
