@@ -5,7 +5,7 @@ public class OutputFactory {
         if (outputType == OutputTypes.CONSOLE) {
             return new OutputConsole();
         } else {
-            throw new java.lang.Error("Incorrect outputType passed into Output.OutputFactory.");
+            throw new java.lang.Error("Incorrect outputType passed into OutputFactory.");
         }
     }
 }

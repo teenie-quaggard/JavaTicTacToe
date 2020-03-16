@@ -26,7 +26,7 @@ public class GameFactory {
 
             return new GameTwoPlayer(output, board, player1, player2);
         } else {
-            throw new java.lang.Error("Incorrect gameType passed into Game.GameFactory.");
+            throw new java.lang.Error("Incorrect gameType passed into GameFactory.");
         }
     }
 }

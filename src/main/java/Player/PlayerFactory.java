@@ -5,7 +5,7 @@ public class PlayerFactory {
         if (playerType == PlayerTypes.HUMAN) {
             return new PlayerHuman();
         } else {
-            throw new java.lang.Error("Incorrect playerType passed into Player.PlayerFactory.");
+            throw new java.lang.Error("Incorrect playerType passed into PlayerFactory.");
         }
     }
 }
