@@ -2,12 +2,23 @@ package Output;
 
 import Board.Board;
 
+import java.io.PrintStream;
 import java.util.ArrayList;
 
 public class OutputConsole implements Output{
 
+    PrintStream output;
+
+    public OutputConsole(){
+       this.output = System.out;
+    }
+
+    public OutputConsole(PrintStream output){
+        this.output = output;
+    }
+
     public void welcomesPlayer(){
-        System.out.println("😎 Welcome to Tic Tac Toe 😎");
+        output.println("😎 Welcome to Tic Tac Toe 😎");
     };
 
     public void displaysBoard(Board board){
@@ -23,7 +34,7 @@ public class OutputConsole implements Output{
                 (board.getTileContent(0)).equals("") ? "8" : board.getTileContent(7),
                 (board.getTileContent(0)).equals("") ? "9" : board.getTileContent(9)
                 );
-        System.out.println(boardFormat);
+        output.println(boardFormat);
     };
 
 }
