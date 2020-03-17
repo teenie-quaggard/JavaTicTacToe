@@ -55,7 +55,8 @@ public class OutputConsole implements Output{
 
     public void displaysBoard(Board board){
         ArrayList<String> tiles = board.getTiles();
-        String boardFormat = String.format("\n %s | %s | %s \n-----------\n %s | %s | %s \n-----------\n %s | %s | %s \n\n",
+        String boardFormat =
+                String.format("\n %s | %s | %s \n-----------\n %s | %s | %s \n-----------\n %s | %s | %s \n\n",
                 (board.getTileContent(0)).equals("") ? "1" : board.getTileContent(0),
                 (board.getTileContent(1)).equals("") ? "2" : board.getTileContent(1),
                 (board.getTileContent(2)).equals("") ? "3" : board.getTileContent(2),
