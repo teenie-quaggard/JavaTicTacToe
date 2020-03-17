@@ -7,10 +7,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaTicTacToe_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaTicTacToe_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaTicTacToe_jar/JavaTicTacToe.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTicTacToe/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTicTacToe/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTicTacToe/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Board/BoardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/BoardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Board/BoardThreeXThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/BoardThreeXThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Board/BoardTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/BoardTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Game/GameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/GameTwoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Game/GameTwoPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/GameTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Game/GameTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Output/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Output/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Output/OutputConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Output/OutputConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Output/OutputFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Output/OutputFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Output/OutputTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Output/OutputTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/PlayerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Player/PlayerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/PlayerHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Player/PlayerHuman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/PlayerTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Player/PlayerTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/Board/BoardFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Board/BoardFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/Board/BoardThreeXThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Board/BoardThreeXThreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/Game/GameFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Game/GameFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/Output/OutputConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Output/OutputConsoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/Output/OutputFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Output/OutputFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/Player/PlayerFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Player/PlayerFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,33 +91,53 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Output" />
       <recent name="" />
       <recent name="tests" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Player" />
+      <recent name="Output" />
+      <recent name="Game" />
+      <recent name="Board" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/JavaTicTacToe" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/tests/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.TicTacToe">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.App" />
+      <module name="JavaTicTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaTicTacToe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BoardFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTicTacToe" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BoardFactoryTest" />
+      <option name="PACKAGE_NAME" value="Board" />
+      <option name="MAIN_CLASS_NAME" value="Board.BoardFactoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,19 +145,9 @@
     </configuration>
     <configuration name="BoardThreeXThreeTest.getTileContentReturnsContentOfTile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTicTacToe" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BoardThreeXThreeTest" />
+      <option name="PACKAGE_NAME" value="Board" />
+      <option name="MAIN_CLASS_NAME" value="Board.BoardThreeXThreeTest" />
       <option name="METHOD_NAME" value="getTileContentReturnsContentOfTile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameFactoryTest.createGameThrowsAnExceptionWhenPassedIncorrectGameType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTicTacToe" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameFactoryTest" />
-      <option name="METHOD_NAME" value="createGameThrowsAnExceptionWhenPassedIncorrectGameType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,21 +163,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputFactoryTest.createOutputThrowsExceptionWhenPassedIncorrectOutputType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OutputConsoleTest.displaysBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTicTacToe" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OutputFactoryTest" />
-      <option name="METHOD_NAME" value="createOutputThrowsExceptionWhenPassedIncorrectOutputType" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaTicTacToe.Output.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Output" />
+      <option name="MAIN_CLASS_NAME" value="Output.OutputConsoleTest" />
+      <option name="METHOD_NAME" value="displaysBoard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerFactoryTest.createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OutputConsoleTest.welcomesPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTicTacToe" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerFactoryTest" />
-      <option name="METHOD_NAME" value="createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaTicTacToe.Output.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Output" />
+      <option name="MAIN_CLASS_NAME" value="Output.OutputConsoleTest" />
+      <option name="METHOD_NAME" value="welcomesPlayer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,18 +209,18 @@
       <item itemvalue="JAR Application.TicTacToe" />
       <item itemvalue="JUnit.MainTest.main" />
       <item itemvalue="JUnit.BoardFactoryTest" />
-      <item itemvalue="JUnit.GameFactoryTest.createGameThrowsAnExceptionWhenPassedIncorrectGameType" />
-      <item itemvalue="JUnit.PlayerFactoryTest.createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType" />
-      <item itemvalue="JUnit.OutputFactoryTest.createOutputThrowsExceptionWhenPassedIncorrectOutputType" />
       <item itemvalue="JUnit.BoardThreeXThreeTest.getTileContentReturnsContentOfTile" />
+      <item itemvalue="JUnit.OutputConsoleTest.welcomesPlayer" />
+      <item itemvalue="JUnit.OutputConsoleTest.displaysBoard" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoardThreeXThreeTest.getTileContentReturnsContentOfTile" />
-        <item itemvalue="JUnit.OutputFactoryTest.createOutputThrowsExceptionWhenPassedIncorrectOutputType" />
-        <item itemvalue="JUnit.PlayerFactoryTest.createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType" />
-        <item itemvalue="JUnit.GameFactoryTest.createGameThrowsAnExceptionWhenPassedIncorrectGameType" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.OutputConsoleTest.displaysBoard" />
+        <item itemvalue="JUnit.OutputConsoleTest.welcomesPlayer" />
         <item itemvalue="JUnit.BoardFactoryTest" />
+        <item itemvalue="JUnit.BoardThreeXThreeTest.getTileContentReturnsContentOfTile" />
       </list>
     </recent_temporary>
   </component>
@@ -185,10 +245,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="427" y="212" key="#BuildArtifactsBeforeRunChooser/0.0.1280.800@0.0.1280.800" timestamp="1583923853028" />
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584094826283">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584450660461">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1584094826283" />
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1584450660461" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584445491902">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1584445491902" />
     <state x="386" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1584056607625">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -197,30 +261,38 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="183" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1583938260779" />
-    <state x="378" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583923754701">
+    <state x="378" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584450959566">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1583923754701" />
-    <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583938284260">
+    <state x="378" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1584450959566" />
+    <state x="53" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584446856668">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1583938284260" />
-    <state width="1238" height="264" key="GridCell.Tab.0.bottom" timestamp="1584094828150">
+    <state x="53" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1584446856668" />
+    <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584381051523">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584094828150" />
-    <state width="1238" height="264" key="GridCell.Tab.0.center" timestamp="1584094828149">
+    <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1584381051523" />
+    <state x="303" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584450574133">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584094828149" />
-    <state width="1238" height="264" key="GridCell.Tab.0.left" timestamp="1584094828148">
+    <state x="303" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1584450574133" />
+    <state width="1198" height="259" key="GridCell.Tab.0.bottom" timestamp="1584451207574">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584094828148" />
-    <state width="1238" height="264" key="GridCell.Tab.0.right" timestamp="1584094828150">
+    <state width="1198" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584451207574" />
+    <state width="1198" height="259" key="GridCell.Tab.0.center" timestamp="1584451207573">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584094828150" />
+    <state width="1198" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584451207573" />
+    <state width="1198" height="259" key="GridCell.Tab.0.left" timestamp="1584451207573">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1198" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584451207573" />
+    <state width="1198" height="259" key="GridCell.Tab.0.right" timestamp="1584451207573">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1198" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584451207573" />
     <state width="1238" height="254" key="GridCell.Tab.1.bottom" timestamp="1584025870713">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -237,25 +309,29 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="254" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1584025870713" />
-    <state x="155" y="0" width="1109" height="800" key="SettingsEditor" timestamp="1584093959516">
+    <state x="28" y="0" width="1109" height="800" key="SettingsEditor" timestamp="1584450965943">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="155" y="0" width="1109" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1584093959516" />
+    <state x="28" y="0" width="1109" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1584450965943" />
     <state x="352" y="301" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583933892033">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="352" y="301" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.800@0.0.1280.800" timestamp="1583933892033" />
-    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584056632048">
+    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584437993348">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1584056632048" />
+    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1584437993348" />
+    <state x="34" y="22" key="new project wizard" timestamp="1584116528612">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="34" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1584116528612" />
     <state x="402" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1584056762180">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="402" y="13" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1584056762180" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1584057437673">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1584114668254">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1584057437673" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1584114668254" />
   </component>
 </project>
