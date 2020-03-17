@@ -1,9 +1,4 @@
 package JavaTicTacToe.Player;
-
-import JavaTicTacToe.Player.Player;
-import JavaTicTacToe.Player.PlayerFactory;
-import JavaTicTacToe.Player.PlayerHuman;
-import JavaTicTacToe.Player.PlayerTypes;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
