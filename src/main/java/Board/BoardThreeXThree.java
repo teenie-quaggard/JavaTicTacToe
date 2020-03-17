@@ -6,7 +6,7 @@ public class BoardThreeXThree implements Board {
 
     ArrayList<String> tiles;
 
-    BoardThreeXThree(ArrayList<String> tiles) {
+    public BoardThreeXThree(ArrayList<String> tiles) {
         this.tiles = tiles;
     }
 
