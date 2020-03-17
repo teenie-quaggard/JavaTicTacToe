@@ -1,11 +1,9 @@
 package Output;
 
-import Board.Board;
+import Board.*;
 
-import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.stream.Stream;
 
 public class OutputConsole implements Output{
 

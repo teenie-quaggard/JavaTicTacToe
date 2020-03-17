@@ -1,10 +1,8 @@
 package Game;
 
 import Board.*;
-import Output.Output;
-import Player.Player;
-import Player.PlayerFactory;
-import Player.PlayerTypes;
+import Output.*;
+import Player.*;
 
 
 public class GameFactory {
