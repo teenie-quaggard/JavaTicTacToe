@@ -1,8 +1,8 @@
 package Game;
 
-import Board.Board;
-import Output.Output;
-import Player.Player;
+import Board.*;
+import Output.*;
+import Player.*;
 
 public class GameTwoPlayer implements Game {
 
