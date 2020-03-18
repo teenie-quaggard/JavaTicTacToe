@@ -2,19 +2,29 @@ package JavaTicTacToe.Output;
 
 import JavaTicTacToe.Board.*;
 
+import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class OutputConsole implements Output{
 
     PrintStream output;
+    InputStream input;
 
     public OutputConsole(){
-       this.output = System.out;
+        this.output = System.out;
+        this.input = System.in;
     }
 
-    public OutputConsole(PrintStream output){
+    public OutputConsole(PrintStream output, InputStream input){
         this.output = output;
+        this.input = input;
+    }
+
+    public String getInput () {
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
     }
 
     public void welcomesPlayer(){
@@ -39,6 +49,19 @@ public class OutputConsole implements Output{
                 "  |_|   |_|\\__|    |_|  \\__,_|\\__|    |_| \\___/\\___|  \n" +
                 "                                                      \n");
     };
+
+    public void promptForInstructions(){
+        output.println("Would you like to see the rules of the game? (Y/N):");
+
+        String input = getInput();
+        String capitalizedInput = capitalize(input);
+
+        if (capitalizedInput.equals("Y")) {
+            gameInstructions();
+        } else {
+            output.println("Great, let's get playing.");
+        }
+    }
 
     public void gameInstructions(){
         output.println("\n" +
@@ -70,4 +93,7 @@ public class OutputConsole implements Output{
         output.println(boardFormat);
     };
 
+    private String capitalize(String input){
+        return input.substring(0, 1).toUpperCase() + input.substring(1);
+    }
 }

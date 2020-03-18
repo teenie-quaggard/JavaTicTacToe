@@ -8,8 +8,15 @@ public class Play {
     public static void go(){
         Output output = OutputFactory.createOutput(OutputTypes.CONSOLE);
         Game game = GameFactory.createGame(GameTypes.TWO_PLAYER, output);
-        output.welcomesPlayer();
-        output.gameInstructions();
+
+        introduction(output);
         game.play();
     }
+
+    private static void introduction(Output output) {
+        output.welcomesPlayer();
+        output.promptForInstructions();
+    }
+
+
 }
