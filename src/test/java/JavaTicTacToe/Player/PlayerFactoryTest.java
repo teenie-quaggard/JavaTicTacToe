@@ -10,13 +10,14 @@ class PlayerFactoryTest {
 
     @Test
     void createPlayerCreatesAHumanPlayer() {
-        Player player = PlayerFactory.createPlayer(PlayerTypes.HUMAN);
+        Player player = PlayerFactory.createPlayer(PlayerTypes.HUMAN, MarkerTypes.X);
         assertThat(player, instanceOf(PlayerHuman.class));
     }
 
     @Test
     void createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType(){
-        Throwable exception = assertThrows(Throwable.class, () -> PlayerFactory.createPlayer(null));
+        Throwable exception = assertThrows(Throwable.class,
+                () -> PlayerFactory.createPlayer(null, null));
         assertTrue(exception.getMessage().contains("Incorrect playerType passed into PlayerFactory."));
     }
 }
