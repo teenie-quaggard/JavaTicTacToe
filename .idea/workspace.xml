@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Player/MarkerTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,10 +67,10 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Kotlin File" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -100,13 +98,14 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="JavaTicTacToe.Player" />
       <recent name="Output" />
       <recent name="" />
       <recent name="tests" />
@@ -129,7 +128,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="JUnit.Tests">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.App" />
       <module name="JavaTicTacToe.main" />
@@ -139,6 +138,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerHumanTest.getMarkReturnsTheMarkOfAPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTicTacToe.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaTicTacToe.Player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaTicTacToe.Player" />
+      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Player.PlayerHumanTest" />
+      <option name="METHOD_NAME" value="getMarkReturnsTheMarkOfAPlayer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,9 +173,11 @@
     <list>
       <item itemvalue="Application.App (1)" />
       <item itemvalue="JUnit.Tests" />
+      <item itemvalue="JUnit.PlayerHumanTest.getMarkReturnsTheMarkOfAPlayer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerHumanTest.getMarkReturnsTheMarkOfAPlayer" />
         <item itemvalue="Application.App (1)" />
       </list>
     </recent_temporary>
@@ -186,6 +203,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="427" y="212" key="#BuildArtifactsBeforeRunChooser/0.0.1280.800@0.0.1280.800" timestamp="1583923853028" />
+    <state x="240" y="65" key="#Project_Structure" timestamp="1584526627448">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1584526627448" />
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584478725214">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -218,22 +239,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="303" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1584450574133" />
-    <state width="1238" height="442" key="GridCell.Tab.0.bottom" timestamp="1584526266798">
+    <state width="1238" height="199" key="GridCell.Tab.0.bottom" timestamp="1584527806767">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="442" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584526266798" />
-    <state width="1238" height="442" key="GridCell.Tab.0.center" timestamp="1584526266797">
+    <state width="1238" height="199" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584527806767" />
+    <state width="1238" height="199" key="GridCell.Tab.0.center" timestamp="1584527806766">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="442" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584526266797" />
-    <state width="1238" height="442" key="GridCell.Tab.0.left" timestamp="1584526266797">
+    <state width="1238" height="199" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584527806766" />
+    <state width="1238" height="199" key="GridCell.Tab.0.left" timestamp="1584527806765">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="442" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584526266797" />
-    <state width="1238" height="442" key="GridCell.Tab.0.right" timestamp="1584526266798">
+    <state width="1238" height="199" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584527806765" />
+    <state width="1238" height="199" key="GridCell.Tab.0.right" timestamp="1584527806766">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="442" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584526266798" />
+    <state width="1238" height="199" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584527806766" />
     <state width="1198" height="254" key="GridCell.Tab.1.bottom" timestamp="1584476336858">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -258,10 +279,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="352" y="301" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.800@0.0.1280.800" timestamp="1583933892033" />
-    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584437993348">
+    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584527199805">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1584437993348" />
+    <state x="419" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1584527199805" />
     <state x="34" y="22" key="new project wizard" timestamp="1584476920846">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

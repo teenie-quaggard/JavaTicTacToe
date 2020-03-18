@@ -2,13 +2,13 @@ package JavaTicTacToe.Player;
 
 public class PlayerHuman implements Player {
 
-    String marker;
+    MarkerTypes marker;
 
-    public PlayerHuman(String marker){
+    public PlayerHuman(MarkerTypes marker){
         this.marker = marker;
     }
 
-    public String getMark() { return marker; }
+    public MarkerTypes getMark() { return marker; }
 
     @Override
     public int makeMove() {
