@@ -1,7 +1,7 @@
 package JavaTicTacToe.Player;
 
 public enum MarkerTypes {
-    X ("𝕏"),
+    X ("X"),
     O ("𝟘");
 
     MarkerTypes(String marker){

@@ -18,9 +18,9 @@ public class GameFactory {
 
             Board board = BoardFactory.createBoard(BoardTypes.THREE_X_THREE);
             Player player1 = PlayerFactory.createPlayer(PlayerTypes.HUMAN,
-                    MarkerTypes.X);
+                    MarkerTypes.X, output);
             Player player2 = PlayerFactory.createPlayer(PlayerTypes.HUMAN,
-                    MarkerTypes.O);
+                    MarkerTypes.O, output);
 
             return new GameTwoPlayer(output, board, player1, player2);
         } else {

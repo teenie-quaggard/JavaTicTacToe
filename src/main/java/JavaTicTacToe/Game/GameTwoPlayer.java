@@ -23,8 +23,16 @@ public class GameTwoPlayer implements Game {
     @Override
     public void play() {
 
-        System.out.println("You are playing the two player version of this game.");
+    turn();
+
+    }
+
+    public void turn(){
+        output.promptTurn(currentPlayer.getMark());
         output.displaysBoard(board);
+        currentPlayer.makeMove();
+        // validate input
+        // make move
     }
 
 

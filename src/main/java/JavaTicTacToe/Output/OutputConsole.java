@@ -1,6 +1,7 @@
 package JavaTicTacToe.Output;
 
 import JavaTicTacToe.Board.*;
+import JavaTicTacToe.Player.MarkerTypes;
 
 import java.io.InputStream;
 import java.io.PrintStream;
@@ -22,7 +23,7 @@ public class OutputConsole implements Output{
         this.input = input;
     }
 
-    public String getInput () {
+    public String getInput(){
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
@@ -65,7 +66,7 @@ public class OutputConsole implements Output{
 
     public void gameInstructions(){
         output.println("\n" +
-            "RULES OF THE GAME:\n" +
+            "THE RULES:\n" +
                 "The object of Tic Tac Toe is to get three in a row. \n" +
                 "You'll be playing on a three by three game board grid. \n" +
                 "The first player will be known as 𝕏 and the second as 𝟘. \n" +
@@ -92,6 +93,16 @@ public class OutputConsole implements Output{
                 );
         output.println(boardFormat);
     };
+
+    public void promptTurn(MarkerTypes mark){
+        output.println("\n\nPlayer " + mark + ", you're up!\n");
+    }
+
+    public String getMove(){
+        output.println("Make your move! Choose an available space " +
+                "between 1-9:");
+        return getInput();
+    }
 
     private String capitalize(String input){
         return input.substring(0, 1).toUpperCase() + input.substring(1);

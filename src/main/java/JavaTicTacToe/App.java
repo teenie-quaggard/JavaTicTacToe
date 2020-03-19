@@ -3,12 +3,14 @@
  */
 package JavaTicTacToe;
 
+import JavaTicTacToe.Output.*;
 import JavaTicTacToe.Play.*;
 
 public class App {
 
     public static void main(String[] args) {
-      Play.go();
+        Output output = OutputFactory.createOutput(OutputTypes.CONSOLE);
+        Play.go(output);
     }
 }
 

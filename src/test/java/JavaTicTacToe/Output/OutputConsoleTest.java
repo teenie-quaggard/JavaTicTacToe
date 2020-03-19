@@ -1,6 +1,9 @@
 package JavaTicTacToe.Output;
 import JavaTicTacToe.Board.*;
 
+import JavaTicTacToe.Player.MarkerTypes;
+import JavaTicTacToe.Player.Player;
+import JavaTicTacToe.Player.PlayerHuman;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
@@ -32,7 +35,7 @@ class OutputConsoleTest {
 
         console.welcomesPlayer();
 
-        assertEquals(output.toString(), "\n\n" +
+        assertEquals("\n\n" +
                 "          _______  _        _______  _______  _______  _______   _________ _______ \n" +
                 "|\\     /|(  ____ \\( \\      (  ____ \\(  ___  )(       )(  ____ \\  \\__   __/(  ___  )\n" +
                 "| )   ( || (    \\/| (      | (    \\/| (   ) || () () || (    \\/     ) (   | (   ) |\n" +
@@ -51,7 +54,7 @@ class OutputConsoleTest {
                 "|_   _| (_) ((_) |_   _|((_)_  ((_) |_   _|((_)(_))   \n" +
                 "  | |   | |/ _|    | |  / _` |/ _|    | | / _ \\/ -_)  \n" +
                 "  |_|   |_|\\__|    |_|  \\__,_|\\__|    |_| \\___/\\___|  \n" +
-                "                                                      \n\n");
+                "                                                      \n\n", output.toString());
     }
 
     @Test
@@ -65,7 +68,7 @@ class OutputConsoleTest {
 
         console.promptForInstructions();
         assertEquals("Would you like to see the rules of the game? (Y/N):\n\n" +
-                "RULES OF THE GAME:\n" +
+                "THE RULES:\n" +
                 "The object of Tic Tac Toe is to get three in a row. \n" +
                 "You'll be playing on a three by three game board grid. \n" +
                 "The first player will be known as 𝕏 and the second as 𝟘. \n" +
@@ -74,8 +77,6 @@ class OutputConsoleTest {
                 "all nine squares are filled. 𝕏 always goes first, and in \n" +
                 "the event that no one has three in a row, the stalemate is " +
                 "\ncalled a cat game. Meow. 🐈\n\n", output.toString());
-
-
     }
 
     @Test
@@ -88,7 +89,7 @@ class OutputConsoleTest {
         console.gameInstructions();
 
         assertEquals("\n" +
-                "RULES OF THE GAME:\n" +
+                "THE RULES:\n" +
                 "The object of Tic Tac Toe is to get three in a row. \n" +
                 "You'll be playing on a three by three game board grid. \n" +
                 "The first player will be known as 𝕏 and the second as 𝟘. \n" +
@@ -109,8 +110,49 @@ class OutputConsoleTest {
 
         console.displaysBoard(board);
 
-        assertEquals(output.toString(), "\n 1 | 2 | 3 \n-----------\n 4 |" +
-                " 5 | 6 \n-----------\n 7 | 8 | 9 \n\n\n");
+        assertEquals( "\n 1 | 2 | 3 \n-----------\n 4 |" +
+                " 5 | 6 \n-----------\n 7 | 8 | 9 \n\n\n", output.toString());
+    }
+
+    @Test
+    void promptTurnPromptsPlayerTurnUsingTheirMark(){
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        PrintStream out = new PrintStream(output);
+        InputStream in = new ByteArrayInputStream("".getBytes());
+        OutputConsole console = new OutputConsole(out, in);
+
+        Player player = new PlayerHuman(MarkerTypes.X, console);
+        MarkerTypes mark = player.getMark();
+
+        console.promptTurn(mark);
+
+        assertEquals("\n\nPlayer X, you're up!\n\n",
+                output.toString());
+    }
+
+    @Test
+    void getMovePromptsUserToMakeAMove(){
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        PrintStream out = new PrintStream(output);
+        String input = "9";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        OutputConsole console = new OutputConsole(out, in);
+        System.setIn(in);
+        console.getMove();
+        assertEquals("Make your move! Choose an available space between " +
+                        "1-9:\n"
+                , output.toString());
+    }
+
+    @Test
+    void getMovePromptsUserToMakeAMoveAndTakesInput(){
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        PrintStream out = new PrintStream(output);
+        InputStream in = new ByteArrayInputStream("9".getBytes());
+        OutputConsole console = new OutputConsole(out, in);
+        System.setIn(in);
+
+        assertEquals("9", console.getMove());
 
     }
 }
