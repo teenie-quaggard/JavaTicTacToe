@@ -12,6 +12,7 @@ public class GameTwoPlayer implements Game {
     Player player1;
     Player player2;
     boolean gameOver;
+    boolean playAgain;
 
     public GameTwoPlayer(Output output, Board board, Player player1,
                          Player player2) {
@@ -21,6 +22,7 @@ public class GameTwoPlayer implements Game {
         this.player1 = player1;
         this.player2 = player2;
         this.gameOver = false;
+        this.playAgain = false;
     }
 
     @Override
@@ -44,10 +46,18 @@ public class GameTwoPlayer implements Game {
             gameOver = true;
             output.displaysBoard(board);
             output.congratulatesWinner(player());
+            boolean input = output.playAgain();
+            if (input) {
+                playAgain = true;
+            }
         } else if (board.tieBoard(player())) {
             gameOver = true;
             output.displaysBoard(board);
             output.tieGame();
+            boolean input = output.playAgain();
+            if (input) {
+                playAgain = true;
+            }
         } else {
             togglePlayer();
         }
@@ -60,6 +70,16 @@ public class GameTwoPlayer implements Game {
       } else {
           currentPlayer = player1;
       }
+    }
+
+    @Override
+    public boolean playAgain(){
+        return playAgain;
+    }
+
+    @Override
+    public boolean gameOver(){
+        return gameOver;
     }
 
     private MarkerTypes player(){

@@ -13,4 +13,5 @@ public interface Output {
     void tieGame();
     String getInput();
     String getMove();
+    boolean playAgain();
 }

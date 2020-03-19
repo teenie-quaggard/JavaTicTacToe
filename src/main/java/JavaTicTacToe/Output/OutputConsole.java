@@ -117,6 +117,21 @@ public class OutputConsole implements Output{
                 "Meow!\n");
     }
 
+    public boolean playAgain(){
+        output.println("Would you like to play again? (Y/N):");
+
+        String input = getInput();
+        String capitalizedInput = capitalize(input);
+
+        if (capitalizedInput.equals("Y")) {
+            output.println("Great, another round!");
+            return true;
+        } else {
+            output.println("No worries, see you next time. 👋🏼");
+            return false;
+        }
+    }
+
     private String capitalize(String input){
         return input.substring(0, 1).toUpperCase() + input.substring(1);
     }
