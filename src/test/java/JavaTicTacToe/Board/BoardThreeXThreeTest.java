@@ -12,10 +12,11 @@ class BoardThreeXThreeTest {
 
     @Test
     void availableSpacesReturnsTilesWithoutMarkers() {
-        ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "", "", "", "", "", "", "", ""));
+        ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "X", "",
+                "", "", "", "", "", ""));
         BoardThreeXThree board = new BoardThreeXThree(tiles);
-        ArrayList<String> availableTiles = board.availableTiles();
-        assertEquals(availableTiles, tiles);
+        ArrayList<Integer> availableTiles = board.availableTiles();
+        assertEquals(Arrays.asList(0,2,3,4,5,6,7,8), availableTiles);
     }
 
     @Test
@@ -29,7 +30,7 @@ class BoardThreeXThreeTest {
     }
 
     @Test
-    void placeTileInsertsCorrectMarkerOnCorrectBoardTile(){
+    void placeMoveInsertsCorrectMarkerOnCorrectBoardTile(){
         ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "", "", "", "", "", "", "", ""));
         BoardThreeXThree board = new BoardThreeXThree(tiles);
 

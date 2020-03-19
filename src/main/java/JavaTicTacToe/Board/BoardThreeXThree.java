@@ -14,8 +14,17 @@ public class BoardThreeXThree implements Board {
     }
 
     @Override
-    public ArrayList<String> availableTiles() {
-        return tiles;
+    public ArrayList<Integer> availableTiles() {
+        ArrayList<Integer> freeSpaces = new ArrayList<Integer>();
+
+        for (int i=0; i<tiles.size(); i++){
+            String tile = getTileContent(i);
+
+            if ("".equals(tile)){
+                freeSpaces.add(i);
+            }
+        }
+        return freeSpaces;
     }
 
     @Override
