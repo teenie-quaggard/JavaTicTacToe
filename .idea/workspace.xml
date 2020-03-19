@@ -7,22 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Play/PlayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Validator/Validator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Game/GameTwoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Game/GameTwoPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Output/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Output/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Output/OutputConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Output/OutputConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Play/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Play/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Player/MarkerTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Player/MarkerTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Player/PlayerHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Player/PlayerHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Output/OutputConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Output/OutputConsoleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Player/PlayerHumanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Player/PlayerHumanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/BoardThreeXThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/BoardThreeXThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Board/BoardThreeXThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Board/BoardThreeXThreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +77,8 @@
         <option value="Interface" />
         <option value="Kotlin File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -143,66 +137,47 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
-    <configuration name="InputConsoleTest.getUserInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTicTacToe.test" />
+  <component name="RunManager" selected="JUnit.BoardThreeXThreeTest.placeTileInsertsCorrectMarkerOnCorrectBoardTile">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.App" />
+      <module name="JavaTicTacToe.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaTicTacToe.Input.*" />
+          <option name="PATTERN" value="JavaTicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JavaTicTacToe.Input" />
-      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Input.InputConsoleTest" />
-      <option name="METHOD_NAME" value="getUserInput" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardThreeXThreeTest.placeTileInsertsCorrectMarkerOnCorrectBoardTile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTicTacToe.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaTicTacToe.Board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaTicTacToe.Board" />
+      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Board.BoardThreeXThreeTest" />
+      <option name="METHOD_NAME" value="placeTileInsertsCorrectMarkerOnCorrectBoardTile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputConsoleTest.getInputShouldAcceptUserInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerFactoryTest.createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTicTacToe.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaTicTacToe.Output.*" />
+          <option name="PATTERN" value="JavaTicTacToe.Player.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JavaTicTacToe.Output" />
-      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Output.OutputConsoleTest" />
-      <option name="METHOD_NAME" value="getInputShouldAcceptUserInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OutputConsoleTest.getMovePromptsUserToMakeAMoveAndTakesInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTicTacToe.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaTicTacToe.Output.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JavaTicTacToe.Output" />
-      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Output.OutputConsoleTest" />
-      <option name="METHOD_NAME" value="getMovePromptsUserToMakeAMoveAndTakesInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayTest.introductionPrintsWelcomeMessageAndPromptsRules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTicTacToe.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaTicTacToe.Play.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JavaTicTacToe.Play" />
-      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Play.PlayTest" />
-      <option name="METHOD_NAME" value="introductionPrintsWelcomeMessageAndPromptsRules" />
+      <option name="PACKAGE_NAME" value="JavaTicTacToe.Player" />
+      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Player.PlayerFactoryTest" />
+      <option name="METHOD_NAME" value="createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,6 +199,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayerHumanTest.makeMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTicTacToe.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaTicTacToe.Player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaTicTacToe.Player" />
+      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Player.PlayerHumanTest" />
+      <option name="METHOD_NAME" value="makeMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests" type="JUnit" factoryName="JUnit">
       <module name="JavaTicTacToe.test" />
       <useClassPathOnly />
@@ -239,17 +230,17 @@
     <list>
       <item itemvalue="JUnit.Tests" />
       <item itemvalue="JUnit.PlayerHumanTest.getMarkReturnsTheMarkOfAPlayer" />
-      <item itemvalue="JUnit.InputConsoleTest.getUserInput" />
-      <item itemvalue="JUnit.OutputConsoleTest.getInputShouldAcceptUserInput" />
-      <item itemvalue="JUnit.PlayTest.introductionPrintsWelcomeMessageAndPromptsRules" />
-      <item itemvalue="JUnit.OutputConsoleTest.getMovePromptsUserToMakeAMoveAndTakesInput" />
+      <item itemvalue="JUnit.PlayerHumanTest.makeMove" />
+      <item itemvalue="JUnit.PlayerFactoryTest.createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.BoardThreeXThreeTest.placeTileInsertsCorrectMarkerOnCorrectBoardTile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OutputConsoleTest.getMovePromptsUserToMakeAMoveAndTakesInput" />
-        <item itemvalue="JUnit.PlayTest.introductionPrintsWelcomeMessageAndPromptsRules" />
-        <item itemvalue="JUnit.OutputConsoleTest.getInputShouldAcceptUserInput" />
-        <item itemvalue="JUnit.InputConsoleTest.getUserInput" />
+        <item itemvalue="JUnit.BoardThreeXThreeTest.placeTileInsertsCorrectMarkerOnCorrectBoardTile" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PlayerHumanTest.makeMove" />
+        <item itemvalue="JUnit.PlayerFactoryTest.createPlayerThrowsAnExceptionWhenPassedAnIncorrectPlayerType" />
         <item itemvalue="JUnit.PlayerHumanTest.getMarkReturnsTheMarkOfAPlayer" />
       </list>
     </recent_temporary>
@@ -283,12 +274,12 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1584478725214" />
-    <state x="1480" y="-205" width="2160" height="1080" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584613062724">
+    <state x="1480" y="-205" width="2160" height="1080" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584616819584">
       <screen x="1280" y="-385" width="2560" height="1440" />
     </state>
     <state x="-450" y="-1260" width="2160" height="1080" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/-650.-1440.2560.1440@-650.-1440.2560.1440" timestamp="1584611888918" />
     <state x="1430" y="-20" width="1620" height="810" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584572845745" />
-    <state x="1480" y="-205" width="2160" height="1080" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584613062724" />
+    <state x="1480" y="-205" width="2160" height="1080" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584616819584" />
     <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1584556809800" />
     <state x="1859" y="-9" key="#com.intellij.ide.util.MemberChooser" timestamp="1584571667891">
       <screen x="1280" y="-155" width="1920" height="1080" />
@@ -315,33 +306,33 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="303" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1584450574133" />
-    <state width="2518" height="385" key="GridCell.Tab.0.bottom" timestamp="1584612962940">
+    <state width="2518" height="385" key="GridCell.Tab.0.bottom" timestamp="1584618497602">
       <screen x="1280" y="-385" width="2560" height="1440" />
     </state>
     <state width="2518" height="386" key="GridCell.Tab.0.bottom/0.0.1280.800/-650.-1440.2560.1440@-650.-1440.2560.1440" timestamp="1584611626300" />
     <state width="1877" height="302" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584572708206" />
-    <state width="2518" height="385" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584612962940" />
+    <state width="2518" height="385" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584618497602" />
     <state width="1238" height="237" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584556162359" />
-    <state width="2518" height="385" key="GridCell.Tab.0.center" timestamp="1584612962939">
+    <state width="2518" height="385" key="GridCell.Tab.0.center" timestamp="1584618497601">
       <screen x="1280" y="-385" width="2560" height="1440" />
     </state>
     <state width="2518" height="386" key="GridCell.Tab.0.center/0.0.1280.800/-650.-1440.2560.1440@-650.-1440.2560.1440" timestamp="1584611626297" />
     <state width="1877" height="302" key="GridCell.Tab.0.center/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584572708205" />
-    <state width="2518" height="385" key="GridCell.Tab.0.center/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584612962939" />
+    <state width="2518" height="385" key="GridCell.Tab.0.center/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584618497601" />
     <state width="1238" height="237" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584556162358" />
-    <state width="2518" height="385" key="GridCell.Tab.0.left" timestamp="1584612962938">
+    <state width="2518" height="385" key="GridCell.Tab.0.left" timestamp="1584618497600">
       <screen x="1280" y="-385" width="2560" height="1440" />
     </state>
     <state width="2518" height="386" key="GridCell.Tab.0.left/0.0.1280.800/-650.-1440.2560.1440@-650.-1440.2560.1440" timestamp="1584611626295" />
     <state width="1877" height="302" key="GridCell.Tab.0.left/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584572708204" />
-    <state width="2518" height="385" key="GridCell.Tab.0.left/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584612962938" />
+    <state width="2518" height="385" key="GridCell.Tab.0.left/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584618497600" />
     <state width="1238" height="237" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584556162358" />
-    <state width="2518" height="385" key="GridCell.Tab.0.right" timestamp="1584612962940">
+    <state width="2518" height="385" key="GridCell.Tab.0.right" timestamp="1584618497602">
       <screen x="1280" y="-385" width="2560" height="1440" />
     </state>
     <state width="2518" height="386" key="GridCell.Tab.0.right/0.0.1280.800/-650.-1440.2560.1440@-650.-1440.2560.1440" timestamp="1584611626299" />
     <state width="1877" height="302" key="GridCell.Tab.0.right/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584572708205" />
-    <state width="2518" height="385" key="GridCell.Tab.0.right/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584612962940" />
+    <state width="2518" height="385" key="GridCell.Tab.0.right/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584618497602" />
     <state width="1238" height="237" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584556162359" />
     <state width="1198" height="254" key="GridCell.Tab.1.bottom" timestamp="1584476336858">
       <screen x="0" y="0" width="1280" height="800" />
@@ -376,9 +367,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="34" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1584476920846" />
-    <state x="402" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1584528335462">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="2084" y="-362" key="refactoring.ChangeSignatureDialog" timestamp="1584615162605">
+      <screen x="1280" y="-385" width="2560" height="1440" />
     </state>
+    <state x="2084" y="-362" key="refactoring.ChangeSignatureDialog/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584615162605" />
     <state x="402" y="13" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1584528335462" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1584114668254">
       <screen x="0" y="0" width="1280" height="800" />
@@ -391,6 +383,14 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/JavaTicTacToe/App.java</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/JavaTicTacToe/Player/PlayerHumanTest.java</url>
+          <line>24</line>
+          <properties class="JavaTicTacToe.Player.PlayerHumanTest" method="makeMove">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

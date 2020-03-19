@@ -1,5 +1,7 @@
 package JavaTicTacToe.Board;
 
+import JavaTicTacToe.Player.MarkerTypes;
+
 import java.util.ArrayList;
 
 public class BoardThreeXThree implements Board {
@@ -23,4 +25,14 @@ public class BoardThreeXThree implements Board {
         return tiles.get(tileIndex);
     }
 
+    @Override
+    public String placeMove(MarkerTypes mark, String userInput){
+        int tileIndex = getTileIndex(userInput);
+        String markString = mark.toString();
+        return tiles.set(tileIndex, markString);
+    }
+
+    private int getTileIndex(String userInput) {
+        return Integer.parseInt(userInput) - 1;
+    }
 }

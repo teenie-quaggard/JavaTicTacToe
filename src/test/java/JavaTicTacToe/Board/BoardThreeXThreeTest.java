@@ -1,6 +1,6 @@
 package JavaTicTacToe.Board;
 
-import JavaTicTacToe.Board.BoardThreeXThree;
+import JavaTicTacToe.Player.MarkerTypes;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -26,6 +26,17 @@ class BoardThreeXThreeTest {
         String tileContentNull = board.getTileContent(0);
         assertEquals(tileContentX, "X");
         assertEquals(tileContentNull, "");
+    }
 
+    @Test
+    void placeTileInsertsCorrectMarkerOnCorrectBoardTile(){
+        ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "", "", "", "", "", "", "", ""));
+        BoardThreeXThree board = new BoardThreeXThree(tiles);
+
+        board.placeMove(MarkerTypes.X, "1");
+        assertEquals("X" , board.getTileContent(0));
+        assertEquals(Arrays.asList("" +
+                        "X", "", "", "", "", "", "", "", "") ,
+                board.getTiles());
     }
 }

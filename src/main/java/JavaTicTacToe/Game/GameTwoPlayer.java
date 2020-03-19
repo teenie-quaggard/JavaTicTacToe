@@ -30,7 +30,8 @@ public class GameTwoPlayer implements Game {
     public void turn(){
         output.promptTurn(currentPlayer.getMark());
         output.displaysBoard(board);
-        currentPlayer.makeMove();
+        String move = currentPlayer.makeMove();
+        board.placeMove(currentPlayer.getMark(), move);
         // validate input
         // make move
     }
