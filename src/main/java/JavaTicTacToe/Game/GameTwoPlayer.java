@@ -11,19 +11,24 @@ public class GameTwoPlayer implements Game {
     Player currentPlayer;
     Player player1;
     Player player2;
+    boolean gameOver;
 
-    public GameTwoPlayer(Output output, Board board, Player player1, Player player2) {
+    public GameTwoPlayer(Output output, Board board, Player player1,
+                         Player player2) {
         this.output = output;
         this.board = board;
         this.currentPlayer = player1;
         this.player1 = player1;
         this.player2 = player2;
+        this.gameOver = false;
     }
 
     @Override
     public void play() {
 
-    turn();
+    while (!gameOver) {
+        turn();
+    }
 
     }
 
@@ -31,10 +36,16 @@ public class GameTwoPlayer implements Game {
         output.promptTurn(currentPlayer.getMark());
         output.displaysBoard(board);
         String move = currentPlayer.makeMove();
+        // needs validation here
         board.placeMove(currentPlayer.getMark(), move);
-        // validate input
-        // make move
+        output.displaysBoard(board);
     }
 
-
+    public void togglePlayer(){
+      if (currentPlayer == player1){
+          currentPlayer = player2;
+      } else {
+          currentPlayer = player1;
+      }
+    }
 }
