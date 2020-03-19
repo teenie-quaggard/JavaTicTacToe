@@ -64,7 +64,11 @@ public class BoardThreeXThree implements Board {
               }
         }
         return winner;
+    }
 
+    @Override
+    public boolean tieBoard(MarkerTypes mark){
+        return !winningBoard(mark) && availableTiles().isEmpty();
     }
 
 

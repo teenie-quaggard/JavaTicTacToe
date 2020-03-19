@@ -34,12 +34,23 @@ public class GameTwoPlayer implements Game {
 
     @Override
     public void turn(){
-        output.promptTurn(currentPlayer.getMark());
+        output.promptTurn(player());
         output.displaysBoard(board);
         String move = currentPlayer.makeMove();
         // needs validation here
-        board.placeMove(currentPlayer.getMark(), move);
-        togglePlayer();
+        board.placeMove(player(), move);
+
+        if (board.winningBoard(player())){
+            gameOver = true;
+            output.displaysBoard(board);
+            output.congratulatesWinner(player());
+        } else if (board.tieBoard(player())) {
+            gameOver = true;
+            output.displaysBoard(board);
+            output.tieGame();
+        } else {
+            togglePlayer();
+        }
     }
 
     @Override
@@ -50,4 +61,8 @@ public class GameTwoPlayer implements Game {
           currentPlayer = player1;
       }
     }
+
+    private MarkerTypes player(){
+        return currentPlayer.getMark();
+    };
 }

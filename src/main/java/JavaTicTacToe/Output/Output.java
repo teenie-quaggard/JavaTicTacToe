@@ -9,6 +9,8 @@ public interface Output {
     void gameInstructions();
     void promptForInstructions();
     void promptTurn(MarkerTypes mark);
+    void congratulatesWinner(MarkerTypes mark);
+    void tieGame();
     String getInput();
     String getMove();
 }

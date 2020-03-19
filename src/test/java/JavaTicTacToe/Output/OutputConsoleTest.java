@@ -80,7 +80,7 @@ class OutputConsoleTest {
     }
 
     @Test
-    void gameInstructions() {
+    void gameInstructionsPrintsMessage() {
         ByteArrayOutputStream output = new ByteArrayOutputStream();
         PrintStream out = new PrintStream(output);
         InputStream in = new ByteArrayInputStream("".getBytes());
@@ -153,6 +153,34 @@ class OutputConsoleTest {
         System.setIn(in);
 
         assertEquals("9", console.getMove());
+    }
 
+    @Test
+    void congratulatesWinnerPrintsMessage() {
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        PrintStream out = new PrintStream(output);
+        InputStream in = new ByteArrayInputStream("".getBytes());
+        OutputConsole console = new OutputConsole(out, in);
+        Board board = BoardFactory.createBoard(BoardTypes.THREE_X_THREE);
+
+        console.congratulatesWinner(MarkerTypes.X);
+
+        assertEquals( "\n\nPlayer X, you are the winner, winner " +
+                "chicken dinner! 🍗 \n\n", output.toString());
+    }
+
+    @Test
+    void tieGamePrintsMessage() {
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        PrintStream out = new PrintStream(output);
+        InputStream in = new ByteArrayInputStream("".getBytes());
+        OutputConsole console = new OutputConsole(out, in);
+        Board board = BoardFactory.createBoard(BoardTypes.THREE_X_THREE);
+
+        console.tieGame();
+
+        assertEquals( "\n\nYou get to choose whether you are " +
+                "both winners...or both losers. 😸 " +
+                "Meow!\n\n", output.toString());
     }
 }

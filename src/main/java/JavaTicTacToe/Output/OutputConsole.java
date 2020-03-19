@@ -104,6 +104,19 @@ public class OutputConsole implements Output{
         return getInput();
     }
 
+    public void congratulatesWinner(MarkerTypes mark){
+        output.println("\n\nPlayer " + mark + ", you are the winner, " +
+                "winner " +
+                "chicken " +
+                "dinner! 🍗 \n");
+    }
+
+    public void tieGame(){
+        output.println("\n\nYou get to choose whether you are " +
+                "both winners...or both losers. 😸 " +
+                "Meow!\n");
+    }
+
     private String capitalize(String input){
         return input.substring(0, 1).toUpperCase() + input.substring(1);
     }

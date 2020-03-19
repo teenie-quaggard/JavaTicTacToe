@@ -61,6 +61,31 @@ class BoardThreeXThreeTest {
     }
 
     @Test
+    void tieBoardReturnsTrueIfBoardIsFullWithNoWinner(){
+        ArrayList<String> tieTiles = new ArrayList<>(Arrays.asList("X",
+                "O", "O",
+                "O", "X", "X", "X", "X", "O"));
+        BoardThreeXThree tieBoard =
+                new BoardThreeXThree(tieTiles);
+
+        ArrayList<String> emptyTiles = new ArrayList<>(Arrays.asList("",
+                "", "",
+                "", "", "", "", "", ""));
+        BoardThreeXThree emptyBoard =
+                new BoardThreeXThree(emptyTiles);
+
+        ArrayList<String> winningTiles = new ArrayList<>(Arrays.asList("X",
+                "X", "X",
+                "", "", "", "", "", ""));
+        BoardThreeXThree winningBoard =
+                new BoardThreeXThree(winningTiles);
+
+        assertTrue(tieBoard.tieBoard(MarkerTypes.X));
+        assertFalse(emptyBoard.tieBoard(MarkerTypes.X));
+        assertFalse(winningBoard.tieBoard(MarkerTypes.X));
+    }
+
+    @Test
     void movesMadeByPlayerReturnsListOfIndicesPlayedByOnePlayer(){
         ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "", "X",
                 "", "", "X", "X", "", ""));
