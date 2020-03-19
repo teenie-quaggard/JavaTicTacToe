@@ -39,4 +39,32 @@ class BoardThreeXThreeTest {
                         "X", "", "", "", "", "", "", "", "") ,
                 board.getTiles());
     }
+
+    @Test
+    void winningBoardReturnsTrueWhenGameIsWon(){
+        ArrayList<String> winningTiles = new ArrayList<>(Arrays.asList("X",
+                "X", "X",
+                "", "", "", "", "", ""));
+        BoardThreeXThree winningBoard =
+                new BoardThreeXThree(winningTiles);
+
+        ArrayList<String> noWinTiles = new ArrayList<>(Arrays.asList("X",
+                "X", "",
+                "", "", "", "", "", ""));
+        BoardThreeXThree noWinBoard =
+                new BoardThreeXThree(noWinTiles);
+
+
+        assertTrue(winningBoard.winningBoard(MarkerTypes.X));
+        assertFalse(noWinBoard.winningBoard(MarkerTypes.O));
+    }
+
+    @Test
+    void movesMadeByPlayerReturnsListOfIndicesPlayedByOnePlayer(){
+        ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "", "X",
+                "", "", "X", "X", "", ""));
+        BoardThreeXThree board = new BoardThreeXThree(tiles);
+
+        assertEquals(Arrays.asList(2,5,6), board.movesMadeByPlayer(MarkerTypes.X));
+    }
 }

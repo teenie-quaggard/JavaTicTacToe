@@ -32,15 +32,17 @@ public class GameTwoPlayer implements Game {
 
     }
 
+    @Override
     public void turn(){
         output.promptTurn(currentPlayer.getMark());
         output.displaysBoard(board);
         String move = currentPlayer.makeMove();
         // needs validation here
         board.placeMove(currentPlayer.getMark(), move);
-        output.displaysBoard(board);
+        togglePlayer();
     }
 
+    @Override
     public void togglePlayer(){
       if (currentPlayer == player1){
           currentPlayer = player2;
