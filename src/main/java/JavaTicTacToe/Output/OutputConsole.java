@@ -1,20 +1,32 @@
 package JavaTicTacToe.Output;
 
 import JavaTicTacToe.Board.*;
+import JavaTicTacToe.InputValidator.InputValidator;
+import JavaTicTacToe.Player.MarkerTypes;
 
+import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class OutputConsole implements Output{
 
     PrintStream output;
+    InputStream input;
 
     public OutputConsole(){
-       this.output = System.out;
+        this.output = System.out;
+        this.input = System.in;
     }
 
-    public OutputConsole(PrintStream output){
+    public OutputConsole(PrintStream output, InputStream input){
         this.output = output;
+        this.input = input;
+    }
+
+    public String getInput(){
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
     }
 
     public void welcomesPlayer(){
@@ -40,9 +52,27 @@ public class OutputConsole implements Output{
                 "                                                      \n");
     };
 
+    public void promptForInstructions(){
+        output.println("Would you like to see the rules of the game? (Y/N):");
+
+        String input = getInput();
+        String capitalizedInput = capitalize(input);
+        boolean validatedInput = validateYesOrNoInput(capitalizedInput);
+
+        if (validatedInput && capitalizedInput.equals("Y")) {
+            gameInstructions();
+        } else if (validatedInput && capitalizedInput.equals("N")){
+            output.println("Great, let's get playing.");
+        } else {
+            output.println("Sorry, check your input value and try again! We " +
+                    "are looking for either Y or N.");
+            promptForInstructions();
+        }
+    }
+
     public void gameInstructions(){
         output.println("\n" +
-            "RULES OF THE GAME:\n" +
+            "THE RULES:\n" +
                 "The object of Tic Tac Toe is to get three in a row. \n" +
                 "You'll be playing on a three by three game board grid. \n" +
                 "The first player will be known as 𝕏 and the second as 𝟘. \n" +
@@ -70,4 +100,70 @@ public class OutputConsole implements Output{
         output.println(boardFormat);
     };
 
+    public void promptTurn(MarkerTypes mark){
+        output.println("\nPlayer " + mark + ", you're up!");
+    }
+
+    public String getMove(){
+        output.println("Choose an available space " +
+                "between 1-9:");
+        String input = getInput();
+        boolean validatedInput = validateIntegerRange(input);
+
+        if (validatedInput) {
+            return input;
+        } else {
+            output.println("Sorry, invalid input! Try again with a number " +
+                    "between 1 to 9.");
+            return getMove();
+        }
+    }
+
+    public void congratulatesWinner(MarkerTypes mark){
+        output.println("\n\nWINNER, WINNER, CHICKEN DINNER! Player " + mark +
+        ", you win!!! 🍗👑💸");
+    }
+
+    public void tieGame(){
+        output.println("\n\nYou get to choose whether you are " +
+                "both winners...or both losers. 😸 " +
+                "Meow!\n");
+    }
+
+    public boolean playAgain(){
+        output.println("Would you like to play again? (Y/N):");
+
+        String input = getInput();
+        String capitalizedInput = capitalize(input);
+        boolean validatedInput = validateYesOrNoInput(capitalizedInput);
+
+        if (validatedInput && capitalizedInput.equals("Y")) {
+            output.println("Great, another round!");
+            return true;
+        } else if (validatedInput && capitalizedInput.equals("N")){
+            output.println("No worries, see you next time. 👋🏼");
+            return false;
+        } else {
+            output.println("Sorry, check your input value and try again! We " +
+                    "are looking for either Y or N.");
+            return playAgain();
+        }
+    }
+
+    public void badMove(){
+        output.println("Sorry, that move has already been made! Try again with" +
+                " a tile that doesn't already have an X or O on it.");
+    }
+
+    private String capitalize(String input){
+        return input.substring(0, 1).toUpperCase() + input.substring(1);
+    }
+
+    private boolean validateYesOrNoInput(String input){
+        return InputValidator.yesOrNoValidation(input);
+    }
+
+    private boolean validateIntegerRange(String input){
+        return InputValidator.integerRangeValidation(input);
+    }
 }

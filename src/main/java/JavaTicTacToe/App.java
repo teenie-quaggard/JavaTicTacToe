@@ -3,17 +3,14 @@
  */
 package JavaTicTacToe;
 
-import JavaTicTacToe.Game.*;
 import JavaTicTacToe.Output.*;
+import JavaTicTacToe.Play.*;
 
 public class App {
 
     public static void main(String[] args) {
         Output output = OutputFactory.createOutput(OutputTypes.CONSOLE);
-        Game game = GameFactory.createGame(GameTypes.TWO_PLAYER, output);
-        output.welcomesPlayer();
-        output.gameInstructions();
-        game.play();
+        Play.go(output);
     }
 }
 

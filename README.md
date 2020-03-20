@@ -2,6 +2,17 @@
 
 A simple Tic Tac Toe command line application built to learn Java, practice the SOLID principles and learn common object oriented programming patterns.
 
+
+## 🏁 Current - Version 2.0
+![Imgur Image](https://imgur.com/hRgzC0b.jpg)
+![Imgur Image](https://imgur.com/XCuqFir.jpg)
+
+- A functional command-line Tic Tac Toe game between two human players on a 3
+ x 3 board.
+ - Includes game instructions
+ - Includes validation for incorrect input and ability to restart a new game
+  after either winning or tying.
+
 ## 👻 Version 1.0 
 ![Imgur Image](https://imgur.com/I6o9Sov.jpg)
 - Goal: a command line Tic Tac Toe game between two human players on a 3 x 3
