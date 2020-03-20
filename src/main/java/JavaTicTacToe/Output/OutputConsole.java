@@ -1,6 +1,7 @@
 package JavaTicTacToe.Output;
 
 import JavaTicTacToe.Board.*;
+import JavaTicTacToe.InputValidator.InputValidator;
 import JavaTicTacToe.Player.MarkerTypes;
 
 import java.io.InputStream;
@@ -56,11 +57,16 @@ public class OutputConsole implements Output{
 
         String input = getInput();
         String capitalizedInput = capitalize(input);
+        boolean validatedInput = validateYesOrNoInput(capitalizedInput);
 
-        if (capitalizedInput.equals("Y")) {
+        if (validatedInput && capitalizedInput.equals("Y")) {
             gameInstructions();
-        } else {
+        } else if (validatedInput && capitalizedInput.equals("N")){
             output.println("Great, let's get playing.");
+        } else {
+            output.println("Sorry, check your input value and try again! We " +
+                    "are looking for either Y or N.");
+            promptForInstructions();
         }
     }
 
@@ -95,20 +101,27 @@ public class OutputConsole implements Output{
     };
 
     public void promptTurn(MarkerTypes mark){
-        output.println("\n\nPlayer " + mark + ", you're up!\n");
+        output.println("\nPlayer " + mark + ", you're up!");
     }
 
     public String getMove(){
-        output.println("Make your move! Choose an available space " +
+        output.println("Choose an available space " +
                 "between 1-9:");
-        return getInput();
+        String input = getInput();
+        boolean validatedInput = validateIntegerRange(input);
+
+        if (validatedInput) {
+            return input;
+        } else {
+            output.println("Sorry, invalid input! Try again with a number " +
+                    "between 1 to 9.");
+            return getMove();
+        }
     }
 
     public void congratulatesWinner(MarkerTypes mark){
-        output.println("\n\nPlayer " + mark + ", you are the winner, " +
-                "winner " +
-                "chicken " +
-                "dinner! 🍗 \n");
+        output.println("\n\nWINNER, WINNER, CHICKEN DINNER! Player " + mark +
+        ", you win!!! 🍗👑💸");
     }
 
     public void tieGame(){
@@ -122,13 +135,18 @@ public class OutputConsole implements Output{
 
         String input = getInput();
         String capitalizedInput = capitalize(input);
+        boolean validatedInput = validateYesOrNoInput(capitalizedInput);
 
-        if (capitalizedInput.equals("Y")) {
+        if (validatedInput && capitalizedInput.equals("Y")) {
             output.println("Great, another round!");
             return true;
-        } else {
+        } else if (validatedInput && capitalizedInput.equals("N")){
             output.println("No worries, see you next time. 👋🏼");
             return false;
+        } else {
+            output.println("Sorry, check your input value and try again! We " +
+                    "are looking for either Y or N.");
+            return playAgain();
         }
     }
 
@@ -139,5 +157,13 @@ public class OutputConsole implements Output{
 
     private String capitalize(String input){
         return input.substring(0, 1).toUpperCase() + input.substring(1);
+    }
+
+    private boolean validateYesOrNoInput(String input){
+        return InputValidator.yesOrNoValidation(input);
+    }
+
+    private boolean validateIntegerRange(String input){
+        return InputValidator.integerRangeValidation(input);
     }
 }

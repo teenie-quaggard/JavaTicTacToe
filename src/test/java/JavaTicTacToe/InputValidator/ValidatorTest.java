@@ -9,22 +9,20 @@ class ValidatorTest {
 
     @Test
     void yesNoValidatorOnlyAcceptsTheCharacters_Y_And_N_() {
-        InputValidator validator = new InputValidator();
 
-        assertTrue(validator.yesOrNoValidation("Y"));
-        assertTrue(validator.yesOrNoValidation("N"));
-        assertFalse(validator.yesOrNoValidation("n"));
-        assertFalse(validator.yesOrNoValidation("y    9"));
-        assertFalse(validator.yesOrNoValidation("adjf"));
+        assertTrue(InputValidator.yesOrNoValidation("Y"));
+        assertTrue(InputValidator.yesOrNoValidation("N"));
+        assertFalse(InputValidator.yesOrNoValidation("n"));
+        assertFalse(InputValidator.yesOrNoValidation("y    9"));
+        assertFalse(InputValidator.yesOrNoValidation("adjf"));
     }
 
     @Test
     void integerRangeValidationOnlyAcceptsValidIntegers() {
-        InputValidator validator = new InputValidator();
 
-        assertTrue(validator.integerRangeValidation("1"));
-        assertTrue(validator.integerRangeValidation("9"));
-        assertFalse(validator.integerRangeValidation("99"));
-        assertFalse(validator.integerRangeValidation("adf"));
+        assertTrue(InputValidator.integerRangeValidation("1"));
+        assertTrue(InputValidator.integerRangeValidation("9"));
+        assertFalse(InputValidator.integerRangeValidation("99"));
+        assertFalse(InputValidator.integerRangeValidation("adf"));
     }
 }

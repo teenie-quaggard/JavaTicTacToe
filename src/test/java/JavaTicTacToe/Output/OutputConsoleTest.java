@@ -20,7 +20,6 @@ class OutputConsoleTest {
         OutputConsole console = new OutputConsole();
         String input = "Boo";
         InputStream in = new ByteArrayInputStream(input.getBytes());
-
         System.setIn(in);
 
         assertEquals("Boo", console.getInput());
@@ -32,7 +31,6 @@ class OutputConsoleTest {
         PrintStream out = new PrintStream(output);
         InputStream in = new ByteArrayInputStream("".getBytes());
         OutputConsole console = new OutputConsole(out, in);
-
         console.welcomesPlayer();
 
         assertEquals("\n\n" +
@@ -77,6 +75,20 @@ class OutputConsoleTest {
                 "all nine squares are filled. 𝕏 always goes first, and in \n" +
                 "the event that no one has three in a row, the stalemate is " +
                 "\ncalled a cat game. Meow. 🐈\n\n", output.toString());
+    }
+
+    @Test
+    void promptForInstructionsDoesNotPrintsGameInstructionsWhenAskedByUser(){
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        PrintStream out = new PrintStream(output);
+        String input = "n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        OutputConsole console = new OutputConsole(out, in);
+        System.setIn(in);
+
+        console.promptForInstructions();
+        assertEquals("Would you like to see the rules of the game? (Y/N):\n" +
+                "Great, let's get playing.\n", output.toString());
     }
 
     @Test
@@ -126,7 +138,7 @@ class OutputConsoleTest {
 
         console.promptTurn(mark);
 
-        assertEquals("\n\nPlayer X, you're up!\n\n",
+        assertEquals("\nPlayer X, you're up!\n",
                 output.toString());
     }
 
@@ -139,7 +151,7 @@ class OutputConsoleTest {
         OutputConsole console = new OutputConsole(out, in);
         System.setIn(in);
         console.getMove();
-        assertEquals("Make your move! Choose an available space between " +
+        assertEquals("Choose an available space between " +
                         "1-9:\n"
                 , output.toString());
     }
@@ -165,8 +177,8 @@ class OutputConsoleTest {
 
         console.congratulatesWinner(MarkerTypes.X);
 
-        assertEquals( "\n\nPlayer X, you are the winner, winner " +
-                "chicken dinner! 🍗 \n\n", output.toString());
+        assertEquals( "\n\nWINNER, WINNER, CHICKEN DINNER! Player X" +
+                ", you win!!! 🍗👑💸\n", output.toString());
     }
 
     @Test
