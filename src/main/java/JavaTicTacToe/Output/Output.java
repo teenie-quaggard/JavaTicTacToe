@@ -14,4 +14,5 @@ public interface Output {
     String getInput();
     String getMove();
     boolean playAgain();
+    void badMove();
 }

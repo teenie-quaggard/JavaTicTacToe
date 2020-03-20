@@ -132,6 +132,11 @@ public class OutputConsole implements Output{
         }
     }
 
+    public void badMove(){
+        output.println("Sorry, that move has already been made! Try again with" +
+                " a tile that doesn't already have an X or O on it.");
+    }
+
     private String capitalize(String input){
         return input.substring(0, 1).toUpperCase() + input.substring(1);
     }

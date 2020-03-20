@@ -27,11 +27,7 @@ public class GameTwoPlayer implements Game {
 
     @Override
     public void play() {
-
-    while (!gameOver) {
         turn();
-    }
-
     }
 
     @Override
@@ -39,27 +35,43 @@ public class GameTwoPlayer implements Game {
         output.promptTurn(player());
         output.displaysBoard(board);
         String move = currentPlayer.makeMove();
-        // needs validation here
-        board.placeMove(player(), move);
 
+        if (board.placeMove(player(), move).equals("Bad move")) {
+            output.badMove();
+            turn();
+        } else {
+            checkIfGameOver();
+        }
+    }
+
+
+    public void checkIfGameOver(){
         if (board.winningBoard(player())){
-            gameOver = true;
-            output.displaysBoard(board);
-            output.congratulatesWinner(player());
-            boolean input = output.playAgain();
-            if (input) {
-                playAgain = true;
-            }
+            winningGame();
         } else if (board.tieBoard(player())) {
-            gameOver = true;
-            output.displaysBoard(board);
-            output.tieGame();
-            boolean input = output.playAgain();
-            if (input) {
-                playAgain = true;
-            }
+            tieGame();
         } else {
             togglePlayer();
+        }
+    }
+
+    public void tieGame(){
+        gameOver = true;
+        output.displaysBoard(board);
+        output.tieGame();
+        boolean input = output.playAgain();
+        if (input) {
+            playAgain = true;
+        }
+    }
+
+    public void winningGame(){
+        gameOver = true;
+        output.displaysBoard(board);
+        output.congratulatesWinner(player());
+        boolean input = output.playAgain();
+        if (input) {
+            playAgain = true;
         }
     }
 

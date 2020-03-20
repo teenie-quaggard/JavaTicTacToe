@@ -6,11 +6,8 @@ import JavaTicTacToe.Output.*;
 public class Play {
 
     public static void go(Output output){
-
-
         introduction(output);
         gameLoop(output);
-
     }
 
      public static void introduction(Output output) {
@@ -27,6 +24,5 @@ public class Play {
             gameLoop(output);
         }
     }
-
 
 }

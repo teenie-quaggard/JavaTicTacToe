@@ -93,4 +93,13 @@ class BoardThreeXThreeTest {
 
         assertEquals(Arrays.asList(2,5,6), board.movesMadeByPlayer(MarkerTypes.X));
     }
+
+    @Test
+    void tileIsTakenReturnsTrueIfSpotIsTaken(){
+        ArrayList<String> tiles = new ArrayList<>(Arrays.asList("", "", "X",
+                "", "", "X", "X", "", ""));
+        BoardThreeXThree board = new BoardThreeXThree(tiles);
+
+        assertTrue(board.tileIsTaken(2));
+    }
 }

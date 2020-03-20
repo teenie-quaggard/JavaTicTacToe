@@ -40,8 +40,12 @@ public class BoardThreeXThree implements Board {
     @Override
     public String placeMove(MarkerTypes mark, String userInput) {
         int tileIndex = getTileIndex(userInput);
-        String markString = mark.toString();
-        return tiles.set(tileIndex, markString);
+        if (tileIsTaken(tileIndex)) {
+            return "Bad move";
+        } else {
+            String markString = mark.toString();
+            return tiles.set(tileIndex, markString);
+        }
     }
 
     @Override
@@ -71,7 +75,6 @@ public class BoardThreeXThree implements Board {
         return !winningBoard(mark) && availableTiles().isEmpty();
     }
 
-
     @Override
     public ArrayList<Integer> movesMadeByPlayer(MarkerTypes mark){
         ArrayList<Integer> movesMade = new ArrayList<Integer>();
@@ -84,6 +87,10 @@ public class BoardThreeXThree implements Board {
            }
         }
         return movesMade;
+    }
+
+    public Boolean tileIsTaken(Integer tileIndex){
+        return !getTileContent(tileIndex).equals("");
     }
 
     private int getTileIndex(String userInput) {

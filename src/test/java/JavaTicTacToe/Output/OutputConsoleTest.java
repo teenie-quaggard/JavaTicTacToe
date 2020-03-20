@@ -183,4 +183,19 @@ class OutputConsoleTest {
                 "both winners...or both losers. 😸 " +
                 "Meow!\n\n", output.toString());
     }
+
+    @Test
+    void badMovePromptsUserToSelectAFreeBoardTile(){
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+        PrintStream out = new PrintStream(output);
+        InputStream in = new ByteArrayInputStream("".getBytes());
+        OutputConsole console = new OutputConsole(out, in);
+        Board board = BoardFactory.createBoard(BoardTypes.THREE_X_THREE);
+
+        console.badMove();
+
+        assertEquals( "Sorry, that move has already been made! Try again with" +
+                " a tile that doesn't already have an X or O on it.\n",
+                output.toString());
+    }
 }
