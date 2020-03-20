@@ -7,17 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2349022e-34f7-413e-ba02-56c4c2b01038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Validator/ValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/BoardThreeXThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Board/BoardThreeXThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Game/GameTwoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Game/GameTwoPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Play/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Play/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Board/BoardThreeXThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Board/BoardThreeXThreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/Validator/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaTicTacToe/InputValidator/InputValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/Validator/ValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTicTacToe/InputValidator/ValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,35 +135,16 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoardThreeXThreeTest.tileIsTakenReturnsTrueIfSpotIsNotFree">
-    <configuration name="BoardThreeXThreeTest.availableSpacesReturnsTilesWithoutMarkers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTicTacToe.test" />
+  <component name="RunManager" selected="JUnit.ValidatorTest.yesNoValidatorOnlyAcceptsTheCharacters_Y_And_N_">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.App" />
+      <module name="JavaTicTacToe.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaTicTacToe.Board.*" />
+          <option name="PATTERN" value="JavaTicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JavaTicTacToe.Board" />
-      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Board.BoardThreeXThreeTest" />
-      <option name="METHOD_NAME" value="availableSpacesReturnsTilesWithoutMarkers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardThreeXThreeTest.tieBoardReturnsTrueIfBoardIsFullWithNoWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTicTacToe.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaTicTacToe.Board.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JavaTicTacToe.Board" />
-      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Board.BoardThreeXThreeTest" />
-      <option name="METHOD_NAME" value="tieBoardReturnsTrueIfBoardIsFullWithNoWinner" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,23 +165,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputConsoleTest.congratulatesWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardThreeXThreeTest.tileIsTakenReturnsTrueIfSpotIsTaken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTicTacToe.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaTicTacToe.Output.*" />
+          <option name="PATTERN" value="JavaTicTacToe.Board.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JavaTicTacToe.Output" />
-      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Output.OutputConsoleTest" />
-      <option name="METHOD_NAME" value="congratulatesWinner" />
+      <option name="PACKAGE_NAME" value="JavaTicTacToe.Board" />
+      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Board.BoardThreeXThreeTest" />
+      <option name="METHOD_NAME" value="tileIsTakenReturnsTrueIfSpotIsTaken" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputConsoleTest.tieGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OutputConsoleTest.badMovePromptsUserToSelectAFreeBoardTile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTicTacToe.test" />
       <extension name="coverage">
         <pattern>
@@ -213,7 +191,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="JavaTicTacToe.Output" />
       <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.Output.OutputConsoleTest" />
-      <option name="METHOD_NAME" value="tieGame" />
+      <option name="METHOD_NAME" value="badMovePromptsUserToSelectAFreeBoardTile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,21 +209,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidatorTest.yesNoValidatorOnlyAcceptsTheCharacters_Y_And_N_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTicTacToe.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaTicTacToe.InputValidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaTicTacToe.InputValidator" />
+      <option name="MAIN_CLASS_NAME" value="JavaTicTacToe.InputValidator.ValidatorTest" />
+      <option name="METHOD_NAME" value="yesNoValidatorOnlyAcceptsTheCharacters_Y_And_N_" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Tests" />
-      <item itemvalue="JUnit.BoardThreeXThreeTest.availableSpacesReturnsTilesWithoutMarkers" />
-      <item itemvalue="JUnit.BoardThreeXThreeTest.tieBoardReturnsTrueIfBoardIsFullWithNoWinner" />
-      <item itemvalue="JUnit.OutputConsoleTest.congratulatesWinner" />
-      <item itemvalue="JUnit.OutputConsoleTest.tieGame" />
       <item itemvalue="JUnit.BoardThreeXThreeTest.tileIsTakenReturnsTrueIfSpotIsNotFree" />
+      <item itemvalue="JUnit.BoardThreeXThreeTest.tileIsTakenReturnsTrueIfSpotIsTaken" />
+      <item itemvalue="JUnit.OutputConsoleTest.badMovePromptsUserToSelectAFreeBoardTile" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.ValidatorTest.yesNoValidatorOnlyAcceptsTheCharacters_Y_And_N_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidatorTest.yesNoValidatorOnlyAcceptsTheCharacters_Y_And_N_" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.OutputConsoleTest.badMovePromptsUserToSelectAFreeBoardTile" />
+        <item itemvalue="JUnit.BoardThreeXThreeTest.tileIsTakenReturnsTrueIfSpotIsTaken" />
         <item itemvalue="JUnit.BoardThreeXThreeTest.tileIsTakenReturnsTrueIfSpotIsNotFree" />
-        <item itemvalue="JUnit.OutputConsoleTest.tieGame" />
-        <item itemvalue="JUnit.OutputConsoleTest.congratulatesWinner" />
-        <item itemvalue="JUnit.BoardThreeXThreeTest.tieBoardReturnsTrueIfBoardIsFullWithNoWinner" />
-        <item itemvalue="JUnit.BoardThreeXThreeTest.availableSpacesReturnsTilesWithoutMarkers" />
       </list>
     </recent_temporary>
   </component>
@@ -310,32 +304,32 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="303" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1584450574133" />
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1584697256070">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1584700374868">
       <screen x="1280" y="-155" width="1920" height="1080" />
     </state>
     <state width="2518" height="386" key="GridCell.Tab.0.bottom/0.0.1280.800/-650.-1440.2560.1440@-650.-1440.2560.1440" timestamp="1584611626300" />
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584697256070" />
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584700374868" />
     <state width="2518" height="612" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584639492478" />
     <state width="1238" height="237" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584556162359" />
-    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1584697256068">
+    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1584700374867">
       <screen x="1280" y="-155" width="1920" height="1080" />
     </state>
     <state width="2518" height="386" key="GridCell.Tab.0.center/0.0.1280.800/-650.-1440.2560.1440@-650.-1440.2560.1440" timestamp="1584611626297" />
-    <state width="1878" height="303" key="GridCell.Tab.0.center/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584697256068" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584700374867" />
     <state width="2518" height="612" key="GridCell.Tab.0.center/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584639492477" />
     <state width="1238" height="237" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584556162358" />
-    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1584697256067">
+    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1584700374866">
       <screen x="1280" y="-155" width="1920" height="1080" />
     </state>
     <state width="2518" height="386" key="GridCell.Tab.0.left/0.0.1280.800/-650.-1440.2560.1440@-650.-1440.2560.1440" timestamp="1584611626295" />
-    <state width="1878" height="303" key="GridCell.Tab.0.left/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584697256067" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584700374866" />
     <state width="2518" height="612" key="GridCell.Tab.0.left/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584639492476" />
     <state width="1238" height="237" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584556162358" />
-    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1584697256069">
+    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1584700374867">
       <screen x="1280" y="-155" width="1920" height="1080" />
     </state>
     <state width="2518" height="386" key="GridCell.Tab.0.right/0.0.1280.800/-650.-1440.2560.1440@-650.-1440.2560.1440" timestamp="1584611626299" />
-    <state width="1878" height="303" key="GridCell.Tab.0.right/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584697256069" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584700374867" />
     <state width="2518" height="612" key="GridCell.Tab.0.right/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584639492478" />
     <state width="1238" height="237" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584556162359" />
     <state width="1198" height="254" key="GridCell.Tab.1.bottom" timestamp="1584476336858">
@@ -381,9 +375,10 @@
       <screen x="1280" y="-385" width="2560" height="1440" />
     </state>
     <state x="2225" y="147" key="run.anything.popup/0.0.1280.800/1280.-385.2560.1440@1280.-385.2560.1440" timestamp="1584636373173" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1584114668254">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="1738" y="12" width="1005" height="913" key="search.everywhere.popup" timestamp="1584699480887">
+      <screen x="1280" y="-155" width="1920" height="1080" />
     </state>
+    <state x="1738" y="12" width="1005" height="913" key="search.everywhere.popup/0.0.1280.800/1280.-155.1920.1080@1280.-155.1920.1080" timestamp="1584699480887" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1584114668254" />
   </component>
   <component name="XDebuggerManager">
