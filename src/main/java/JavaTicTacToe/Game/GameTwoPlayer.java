@@ -44,7 +44,7 @@ public class GameTwoPlayer implements Game {
         }
     }
 
-
+    @Override
     public void checkIfGameOver(){
         if (board.winningBoard(player())){
             winningGame();
@@ -55,6 +55,7 @@ public class GameTwoPlayer implements Game {
         }
     }
 
+    @Override
     public void tieGame(){
         gameOver = true;
         output.displaysBoard(board);
@@ -65,6 +66,7 @@ public class GameTwoPlayer implements Game {
         }
     }
 
+    @Override
     public void winningGame(){
         gameOver = true;
         output.displaysBoard(board);
